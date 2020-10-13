@@ -1,0 +1,38 @@
+------------------- Baze ---------------------
+
+- u cetu ce biti snimljeno predavanje iz baza 
+
+
+Online ce biti sve ali trebalo bi da sve dobijemo kao i prosle godine.
+
+Principi projektovanja baza podataka <- literatura
+Baza podataka zbirka <- za vezbe
+
+
+predispitne: 70 <- MINIMUM 36 bodova
+ispit: 30 <- usmeni NIJE OBAVEZAN, ali treba javiti profesoru NE SAMO PRIJAVITI ISPIT !
+na usmenom mora na svako pitanje da se odgovori bar malo
+
+prakticni deo: 55
+teorijski: 45
+
+PZ1 - 15 pitanja x 1 bod <- predispitni - teorijski
+ZI - 30 bodova <- ispit - teorijski
+
+Z1, Z2, Z3 <- papirni zadaci ( 10 + 10 + 15 bodova ) <- predispitne 
+	- najvise se jedan zadatak moze ponoviti na kraju semestra
+
+
+
+P1 - projekat <- 20 bodova, samostalno se radi
+izaberemo aplikativni problem i problem i projektujemo semu baze podataka
+1. er semu, putem case alata oracle model
+2. prevesti u relacionu semu bp
+3. implementirati tu semu bp, generisanjem sql skriptova
+4. postaviti neke upite, inserte ... 
+
+
+cam skener & mikrofon & kamera su potrebne 
+
+ponoviti osnovne relacionog modela podataka
+----------------------------------------------
