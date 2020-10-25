@@ -204,3 +204,21 @@ Dobijemo relaciju x viseznacno odredjuje y, dopuniti relaciju da zadovoljava vz.
 Opet napravimo projekciju nad xy i projekciju na x unija u bez y, spojimo te 2 projekcije (uradimo **prirodni spoj**). Tada cemo dobiti i torke koje su nedostajale u polaznoj relaciji.
 
 </details>
+
+<details>
+ <summary> pitanje-3 </summary> 
+ 
+ </br>
+
+Ako vazi A u B da li vazi viseznacno A u B i da li iz viseznacnog A u B vazi A u B, tu je potrebno odgovoriti samo za da ili ne.
+
+</details>
+
+<details>
+ <summary> odgovor-3 </summary> 
+ 
+ </br>
+
+Ako vazi A u B onda vazi viseznacno A u B ali ne i obrnuto, tj iz viseznacnog A u B ne vazi A u B
+
+</details>
