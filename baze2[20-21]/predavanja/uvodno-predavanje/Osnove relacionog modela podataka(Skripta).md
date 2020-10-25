@@ -49,6 +49,10 @@ Bavi se definicijom i intrepetacijom ograničenja na nivou servera i uopšte na 
 </p> 
 
 - Selekcija (Sledeca unaprna operacija)
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/49925421/97113911-9b177c80-16ed-11eb-8bf3-9b8116d8190c.png" width="150" title="hover text">
+</p> 
+
   * Vrsi odabir samo odredjenih torki po nekom definisanom kriterijumu
 <p align="left">
   <img src="https://user-images.githubusercontent.com/49925421/97113841-29d7c980-16ed-11eb-8cb8-ad0edc75f61e.png" width="350" title="hover text">
