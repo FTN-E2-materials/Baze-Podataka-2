@@ -62,10 +62,11 @@ Bavi se definicijom i intrepetacijom ograničenja na nivou servera i uopšte na 
   * Vrsi izdvajanje vrednosti pojedinih kolona iz relacije
 
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/49925421/97114191-58ef3a80-16ef-11eb-9f7c-181b75eccfa8.png" width="150" title="hover text">
+  <img src="https://user-images.githubusercontent.com/49925421/97114191-58ef3a80-16ef-11eb-9f7c-181b75eccfa8.png" width="180" title="hover text">
 </p> 
+Tumacenje matematickog zapisa: Projekcija je skup svih t od x-ova takvih da... pa onda ide predikat tj osobina
 <p align="left">
   <img src="https://user-images.githubusercontent.com/49925421/97114214-7c19ea00-16ef-11eb-8c94-ea6ac16dc677.png" width="350" title="hover text">
 </p> 
-Tumacenje matematickog zapisa: Projekcija je skup svih t od x-ova takvih da... pa onda ide predikat tj osobina
+
  
