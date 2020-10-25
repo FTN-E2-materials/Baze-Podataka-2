@@ -48,6 +48,7 @@ Bavi se definicijom i intrepetacijom ograničenja na nivou servera i uopšte na 
   <img src="https://user-images.githubusercontent.com/49925421/97113737-98685780-16ec-11eb-8283-f36a6a492877.png" width="350" title="hover text">
 </p> 
 
+**NAPOMENA za selekciju i projekciju bitan je matematicki zapis i bitno je znati protumaciti ga**
 - Selekcija 
   * Vrsi odabir samo odredjenih torki po nekom definisanom kriterijumu
 <p align="left">
@@ -63,4 +64,8 @@ Bavi se definicijom i intrepetacijom ograničenja na nivou servera i uopšte na 
 <p align="left">
   <img src="https://user-images.githubusercontent.com/49925421/97114191-58ef3a80-16ef-11eb-9f7c-181b75eccfa8.png" width="150" title="hover text">
 </p> 
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/49925421/97114214-7c19ea00-16ef-11eb-8c94-ea6ac16dc677.png" width="350" title="hover text">
+</p> 
+Tumacenje matematickog zapisa: Projekcija je skup svih t od x-ova takvih da... pa onda ide predikat tj osobina
  
