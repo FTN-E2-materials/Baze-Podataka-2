@@ -126,8 +126,81 @@ Postoji, i to je treca. Jer nad AB su prva i treca torka jednake, a i nad AC su 
 
 Da li postoji torka koja je jednaka prvoj na AB i cetvrtoj nad AC. 
 
+Postoji, to je prva, koja je jednaka prvoj nad AB i jednaka cetvrtoj nad AC.
 
+#### Kombinacije se dalje nastavljaju ! Sada drugu torku ispitujemo sa svakom SLEDECOM
+
+Da li postoji torka koja je jednaka drugoj na AB i TRECOJ nad AC.
+
+Postoji, to je druga torka, koja je jednaka drugoj nad AB i trecoj nad AC.
+
+###### Itd... cemo proci kroz sve i pokazati da A viseznacno odredjuje B
+
+</br>
+</br>
 
 </details>
 
+### Zakljucak
 
+Pojam viseznacne zavisnosti, nije to da se izjednacuje dve torke na desnoj strani kada su one jednake na levoj (kao kod obicne fz) nego trazi neku novu torku koja je na jednom parcetu **jednaka prvoj** a na drugom parcetu **jednaka drugoj** torci.
+
+</br>
+</br>
+
+## Teorema - cesto pitano na testu ! 
+
+Koja odgovara na pitanje zasto vz postoji 
+
+![image](https://user-images.githubusercontent.com/45834270/97120392-ea25d780-1716-11eb-8b90-8277b6425d9a.png)
+
+Zadovoljenje vz u relaciji r ekvivalentno je tome da je prirodni spoj relacija jednak originalnoj relaciji. Sada imamo ekvivalenciju! Sto znaci da kada vazi jedno onda vazi i drugo !
+
+
+### Napomena
+
+Bitno je napomenuti i da **fz implicira vz** ali ne i obrnuto ! Voditi racuna da ako ne vazi fz to ne znaci da ne vazi i vz. Jer **vz moze da vazi i bez fz** !
+
+![image](https://user-images.githubusercontent.com/45834270/97120729-83ee8400-1719-11eb-9bbb-6e035af27ea7.png)
+
+### Test pitanja
+
+<details>
+ <summary> pitanje-1 </summary> 
+ 
+ </br>
+
+Dobijemo jednu relaciju i pitanje je da li u toj relaciji vazi neka vz.
+
+</details>
+
+<details>
+ <summary> odgovor-1 </summary> 
+ 
+ </br>
+
+ Najbrzi nacin da odgovorimo na to pitanje je da napravimo prirodni spoj projekcija i vidimo da li je jednako sa r.
+ 
+ Znaci dobijemo relaciju sa 5,6 torki, obelezja a,b,c,d  i pitanje je da li vazi b viseznacno u d. Znaci napravi se projekcija na bd, projekcija na abc(bitno da je pocetni skup bez d jer je pitanje da li vazi b viseznacno u d) i vidimo da li ce prirodni spoj te dve projekcije vratiti istu relaciju, ako vrati istu relaciju onda vazi vz ako ne onda ne vazi.
+ 
+ </br>
+
+</details>
+
+<details>
+ <summary> pitanje-2 </summary> 
+ 
+ </br>
+
+Dobijemo relaciju x viseznacno odredjuje y, dopuniti relaciju da zadovoljava vz. 
+
+</details>
+
+<details>
+ <summary> odgovor-2 </summary> 
+ 
+ </br>
+
+Opet napravimo projekciju nad xy i projekciju na x unija u bez y, spojimo te 2 projekcije (uradimo **prirodni spoj**). Tada cemo dobiti i torke koje su nedostajale u polaznoj relaciji.
+
+</details>
