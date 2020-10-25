@@ -36,3 +36,21 @@ Bavi se definicijom i intrepetacijom ograničenja na nivou servera i uopšte na 
 - Relacija 
   * Reprezentuje **KONACAN** skup torki
   * Uobicajna predstava relacije je tabela (ovde napraviti terminolosku distinkciju, ne moze sve u zivotu biti tabela tj Relacije != Tabela) 
+ ## Operacijska komponenta 
+- Vrste teorijskih upitnih jezika u RMP 
+  * relaciona algebra (zasnovana na teoriji skupova i skupovnih operacija)
+  * relacioni racun (nad torkama i nad domenima)
+- Osnovne skupovne operacije nad relacijama:
+  * Unija 
+  * Presek
+  * Razlika 
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/49925421/97113737-98685780-16ec-11eb-8283-f36a6a492877.png" width="350" title="hover text">
+</p> 
+
+- Selekcija (Sledeca unaprna operacija)
+  * Vrsi odabir samo odredjenih torki po nekom definisanom kriterijumu
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/49925421/97113841-29d7c980-16ed-11eb-8cb8-ad0edc75f61e.png" width="350" title="hover text">
+</p> 
+ 
