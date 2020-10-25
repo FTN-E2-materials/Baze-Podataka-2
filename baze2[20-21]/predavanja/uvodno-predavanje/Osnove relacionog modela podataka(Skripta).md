@@ -48,13 +48,19 @@ Bavi se definicijom i intrepetacijom ograničenja na nivou servera i uopšte na 
   <img src="https://user-images.githubusercontent.com/49925421/97113737-98685780-16ec-11eb-8283-f36a6a492877.png" width="350" title="hover text">
 </p> 
 
-- Selekcija (Sledeca unaprna operacija)
+- Selekcija 
+  * Vrsi odabir samo odredjenih torki po nekom definisanom kriterijumu
 <p align="left">
   <img src="https://user-images.githubusercontent.com/49925421/97113911-9b177c80-16ed-11eb-8bf3-9b8116d8190c.png" width="150" title="hover text">
 </p> 
-
-  * Vrsi odabir samo odredjenih torki po nekom definisanom kriterijumu
 <p align="left">
   <img src="https://user-images.githubusercontent.com/49925421/97113841-29d7c980-16ed-11eb-8cb8-ad0edc75f61e.png" width="350" title="hover text">
+</p> 
+
+- Projekcija 
+  * Vrsi izdvajanje vrednosti pojedinih kolona iz relacije
+
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/49925421/97114191-58ef3a80-16ef-11eb-9f7c-181b75eccfa8.png" width="150" title="hover text">
 </p> 
  
