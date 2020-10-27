@@ -1,17 +1,23 @@
 # Osnove relacionog modela podataka(Skripta)
 
-## Model podataka   
-### - Strukturalna komponenta
-Sadrži koncepte putem kojih gradimo šemu baze podataka.
-### - Operacijska komponenta
-Sadrži upitne jezike i jezike za manipulisanje i definiciju podataka.
-### - Integritentna komponenta 
-Bavi se definicijom i intrepetacijom ograničenja na nivou servera i uopšte na nivou šeme baze podataka.
-### - Nivoi apstrakcije 
- - Nivo intenzije (konteksta) (Nivo tipa npr šema baze podataka)
- - Nivo ekstenzije (konkretizacije) (Nivo pojave tipa)
+<details>
  
- ## Strukturalna komponenta I 
+ <summary> Model podataka </summary>   
+
+ ### - Strukturalna komponenta
+ Sadrži koncepte putem kojih gradimo šemu baze podataka.
+ ### - Operacijska komponenta
+ Sadrži upitne jezike i jezike za manipulisanje i definiciju podataka.
+ ### - Integritentna komponenta 
+ Bavi se definicijom i intrepetacijom ograničenja na nivou servera i uopšte na nivou šeme baze podataka.
+ ### - Nivoi apstrakcije 
+  - Nivo intenzije (konteksta) (Nivo tipa npr šema baze podataka)
+  - Nivo ekstenzije (konkretizacije) (Nivo pojave tipa)
+ 
+ </br></br>
+</details>
+
+## Strukturalna komponenta I 
  - Primitivni koncepti u RMP:
    * Obelezje (Atribut) - reprezentuje osobinu tj svojstvo klase entiteta ili poveznika
    * Domen - reprezentuje skup mogucih vrednosti koje neka obelezja mogu da dobiju
@@ -157,4 +163,8 @@ Odgovor: svaki pokusaj dodele vrednosti onom obelezju koje je vezano za tu speci
 - Nula (nepostojeca) vrednost 
   * Oznacava se sa ω ili ? ili NULL u SQL-u.
   * One su element svakog skupa
+  
+- Specifikacija obelezja seme relacije **(Zaboravalja se vrlo cesto kada pita na usmenom)**
+  * 
+
   
