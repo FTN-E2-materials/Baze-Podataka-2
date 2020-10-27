@@ -131,3 +131,30 @@ Selektovanje torki po nekom kriterijumu iz dekartovog proizvoda relacija
   * Suštinski konzistentno stanje 
     * kada se nalazi u firmalno konzistentnom stanju 
     * i kada predstavlja vernu sliku stanja realnog sistema
+## Integritetna komponenta (Lukovic kaze najbitnija!)
+
+- Tipovi ograničenja u relacionom modelu podataka:
+  * Ogranicenje domena
+  * Ogranicenje vrednosti obelezja
+  * Ogranicenje torke
+  * Integritet entiteta (Ogranicenej kljuca)
+  * Ogranjicenje jedinstvenosti vrednosti obelezja
+  * Zavisnost sadrzavanja
+  * Ogranicenej referencijalnog integriteta
+  * Funkcionalna zavisnost
+ 
+- Specifikacija domena **(Pita na usmenom)***
+  * D (id(D), Predef)
+  * id(D) - ogranicenje (integritet) domena
+  * Predef - Predefinisana vrednost domena
+  
+- Ogranicenje domena **(Pita na usmenom)***
+  * id(D) = (Tip, Duzina, Uslov)
+
+Na usmenom jos diskutuje o tome koje su to operacije koje mogu da dovedu do narusavanja ogranicenja.
+Odgovor: svaki pokusaj dodele vrednosti onom obelezju koje je vezano za tu specifikaciju domena i zahteva i izaziva proveru ovog uslova.
+
+- Nula (nepostojeca) vrednost 
+  * Oznacava se sa ω ili ? ili NULL u SQL-u.
+  * One su element svakog skupa
+  
