@@ -1,8 +1,6 @@
 # Osnove relacionog modela podataka(Skripta)
 
-<details>
- 
- <summary> Model podataka </summary>   
+## Model podataka
 
  ### - Strukturalna komponenta
  Sadrži koncepte putem kojih gradimo šemu baze podataka.
@@ -13,9 +11,7 @@
  ### - Nivoi apstrakcije 
   - Nivo intenzije (konteksta) (Nivo tipa npr šema baze podataka)
   - Nivo ekstenzije (konkretizacije) (Nivo pojave tipa)
- 
- </br></br>
-</details>
+
 
 ## Strukturalna komponenta I 
  - Primitivni koncepti u RMP:
