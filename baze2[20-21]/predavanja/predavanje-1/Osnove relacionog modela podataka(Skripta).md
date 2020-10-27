@@ -73,4 +73,21 @@ Projekcija ovako kako je definisana u relaciooj algebri odgovara SELECT naredbi 
   <img src="https://user-images.githubusercontent.com/49925421/97114214-7c19ea00-16ef-11eb-8c94-ea6ac16dc677.png" width="350" title="hover text">
 </p> 
 
+- Prirodni spoj relacija
+ * Spajanje torki razlicitih relacija po osnovu istih vrednosti zajedničkih obeležja
+ Kako algoritamski izvršiti algoritamski? **(Luković napmenuo da je bitno)**
+ 
+ Algoritam: (referenca : http://grdelin.phy.hr/~ivo/Nastava/Baze_podataka/predavanja-2004/07_pred.pdf)
+ 
+Prvo provera da li postoje zajednički atributi istog imena i tipa?
+Ako da, onda:
+ 1. Napraviti Dekartov proizvod r i s
+ 2. Identifikovati zajedničke atribute (kolone)
+ 3. Identifikovati zajedničke vrednosti zajedničkih atributa, njih zadržati, ostale odbaciti.
+ 4. Izbaciti (projekcija) duplikate zajedničkih atributa
+Rezultat je prirodni spoj.
+
+ <p align="left">
+  <img src="https://user-images.githubusercontent.com/49925421/97363776-5cc3be00-18a3-11eb-9775-fe6bb035560c.png" width="400" title="hover text">
+</p> 
  
