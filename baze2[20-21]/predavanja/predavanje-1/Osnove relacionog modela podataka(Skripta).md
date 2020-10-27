@@ -104,3 +104,30 @@ Spajanje formiranje svih mogucih realcija
 
 Selektovanje torki po nekom kriterijumu iz dekartovog proizvoda relacija
  
+## Strukturalna komponenta II
+- Šema relacije 
+  * Imenovani par N(R, O)
+  * N je naziv šeme relacije
+  * R je skup obeležja šeme relacije 
+  * O je skup ograničenja šeme relacije 
+  
+- Pojava nad šemom relacije 
+  * (R, O)
+  * Bilo koja relacija r(R), takva da zadovoljava sva ograničenja iz skupa O
+ 
+- Relaciona šema baze podataka
+  * Imenovani par (S, I)
+  * S je skup relacija 
+  * I je skup međurelacionih ograničenja
+  
+- Relaciona baza podataka 
+  * Jedna pojava nad zadatom relacionom šemom baze podataka (S, I)
+  * Svakoj šemi relacije iz skupa S odgovara jedna pojava
+
+- Konzistentno stanje BP 
+  * Formalna konzistetnost - Formalno konzistentno je nešto što možemo matematički da dokažemo
+    * zadovoljava sva ograničenja odgovarajuće šeme
+    * zadovoljava sva međurelaciona ograničenja iskazana putem I
+  * Suštinski konzistentno stanje 
+    * kada se nalazi u firmalno konzistentnom stanju 
+    * i kada predstavlja vernu sliku stanja realnog sistema
