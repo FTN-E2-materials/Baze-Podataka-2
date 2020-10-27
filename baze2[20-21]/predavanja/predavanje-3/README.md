@@ -12,6 +12,18 @@ Some snippet of text
 
 # Predavanje 2
 
+
+## Nastavak sa predavanja-1
+
+### Zavisnost spoja
+
+![image](https://user-images.githubusercontent.com/45834270/97297208-f95d7000-1851-11eb-9d8e-5de483c7c83d.png)
+
+
+
+## Novo gradivo
+
+
 Ne smemo gubiti i dobijati obelezja 'usput'. 
 
 ## K1
