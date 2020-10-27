@@ -78,10 +78,13 @@ Projekcija ovako kako je definisana u relaciooj algebri odgovara SELECT naredbi 
  Kako algoritamski izvršiti algoritamski? **(Luković napmenuo da je bitno)**
  
  Algoritam: (referenca : http://grdelin.phy.hr/~ivo/Nastava/Baze_podataka/predavanja-2004/07_pred.pdf)
+ <p align="left">
+  <img src="https://user-images.githubusercontent.com/49925421/97365082-64846200-18a5-11eb-8177-c7c7aeaf7d64.png" width="400" title="hover text">
+ </p> 
  
 Prvo provera da li postoje zajednički atributi istog imena i tipa?
 Ako da, onda:
- 1. Napraviti Dekartov proizvod r i s
+ 1. Napraviti Dekartov proizvod R i S
  2. Identifikovati zajedničke atribute (kolone)
  3. Identifikovati zajedničke vrednosti zajedničkih atributa, njih zadržati, ostale odbaciti.
  4. Izbaciti (projekcija) duplikate zajedničkih atributa
