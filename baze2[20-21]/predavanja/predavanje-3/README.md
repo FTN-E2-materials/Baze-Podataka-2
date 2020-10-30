@@ -10,8 +10,6 @@ Some snippet of text
 
 -->
 
-# Predavanje 2
-
 
 ## Nastavak sa predavanja-1
 
