@@ -15,7 +15,19 @@ Some snippet of text
 
 ### Zavisnost spoja
 
-![image](https://user-images.githubusercontent.com/45834270/97297208-f95d7000-1851-11eb-9d8e-5de483c7c83d.png)
+Je nadgradnja viseznacnih zavisnosti. Zavisnost spoja >< (x1, ..., xk)
+
+![image](https://user-images.githubusercontent.com/45834270/97726083-2c606780-1acf-11eb-93bc-9740fee797e2.png)
+
+
+Cela relacija r ce zadovoljavati zavisnost spoja ><(x1, ... xk)
+
+![image](https://user-images.githubusercontent.com/45834270/97726142-384c2980-1acf-11eb-8b53-32e2fb9b7d9e.png)
+
+ako vazi 
+
+![image](https://user-images.githubusercontent.com/45834270/97725849-ee634380-1ace-11eb-8fa8-642a3231cfdc.png)
+
 
 
 
