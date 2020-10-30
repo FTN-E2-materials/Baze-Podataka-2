@@ -163,7 +163,7 @@ Bitno je napomenuti i da **fz implicira vz** ali ne i obrnuto ! Voditi racuna da
 
 ![image](https://user-images.githubusercontent.com/45834270/97120729-83ee8400-1719-11eb-9bbb-6e035af27ea7.png)
 
-### Test pitanja
+# Test pitanja
 
 <details>
  <summary> pitanje-1 </summary> 
