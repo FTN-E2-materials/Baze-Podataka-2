@@ -19,7 +19,6 @@ Je nadgradnja viseznacnih zavisnosti. Zavisnost spoja >< (x1, ..., xk)
 
 ![image](https://user-images.githubusercontent.com/45834270/97726083-2c606780-1acf-11eb-93bc-9740fee797e2.png)
 
-
 Cela relacija r ce zadovoljavati zavisnost spoja ><(x1, ... xk)
 
 ![image](https://user-images.githubusercontent.com/45834270/97726142-384c2980-1acf-11eb-8b53-32e2fb9b7d9e.png)
@@ -29,7 +28,12 @@ ako vazi
 ![image](https://user-images.githubusercontent.com/45834270/97725849-ee634380-1ace-11eb-8fa8-642a3231cfdc.png)
 
 
+### Odnosno 
 
+![image](https://user-images.githubusercontent.com/45834270/97726929-0f786400-1ad0-11eb-920a-9b073ba20415.png)
+
+
+</br></br></br>
 
 # Novo gradivo
 
