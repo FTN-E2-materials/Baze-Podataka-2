@@ -1,8 +1,26 @@
-# Projekcija skupa fz
+# Projekcija skupa funkcionalnih zavisnosti
 
-  - nadjemo zatvarace za svaku kombinaciju posmatranog skupa za koji odredjujemo projekciju, npr ADF 
-  - ako on daje nesto sto trazimo iz projekcije, tipa  AD daje ADF to znaci da AD odredjuje F, 
-  - a ako imamo AD odredjuje ADCV, odbacujemo CV jer nam to nije od interesa
+<details>
+  <summary> Algoritam </summary> <br>
+  
+  - napisemo sve kombinacije polaznog skupa za kojeg pravimo projekciju
+  - za svaku kombinaciju odredimo zatvarac 
+  - ako u zatvaracu te kombinacije postoji obelezje(ili skup obelezja) iz polaznog skupa, zakljucujemo: **KOMBINACIJA -> OBELEZJE** tj kombinacija odredjuje to obelezje(ili taj skup obelezja)
+  - ono sto posmatramo iz tog **obelezja(skupa obelezja)** su ona obelezja koja **nisu kombinacija** ali jesu obelezja iz polaznog skupa  
+  - svaku trivijalnu fz ne pisemo, dovoljno je napisati samo *trivijalne* sto oznacava sve trijvijalne fz 
+  
+  </details>
+  
+<details>
+  <summary> Primer </summary> <br>
+  
+  - polazni skup je ADF i odredili smo sve njegove kombinacije, a potom i zatvarace od svake kombinacije
+  - ako pogledamo zatvarac nad AD, vidimo da dobijamo ADBCEF, gde je AD bas kombinacija, BCE nisu obelezja iz polaznog skupa, a F je obelezje iz polaznog skupa, takodje, F nije obelezje u skupu kombinacije, te zakljucujemo da AD odredjuje F
+  
+  ![image](https://user-images.githubusercontent.com/45834270/98126565-06173f00-1eb6-11eb-9dc7-ddf3aedd3732.png)
+
+  
+  </details>
 
 # Utvrdjivanje ekvivalentnosti dva skupa
 
