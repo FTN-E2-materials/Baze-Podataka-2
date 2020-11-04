@@ -50,7 +50,11 @@ Iteriramo kroz svaku fz iz F1 i proveravamo da li su te fz **logicke posledice**
   </details>
 
 
+<details>
+  <summary> Napomena </summary>
 
 ## Napomena
 
 U oba smera mora da vazi da svaka fz iz jednog skupa fz moze da se izvede iz drugog skupa fz! Ako se ispostavi da postoji jedan kontra primer, ta dva skupa fz nisu ekvivalentni.
+  
+  </details>
