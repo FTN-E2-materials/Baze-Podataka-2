@@ -25,7 +25,7 @@
 # Utvrdjivanje ekvivalentnosti dva skupa
 
 <details>
-  <summary> Teorema </summary><br>
+  <summary> Algoritam </summary><br>
 
 ![image](https://user-images.githubusercontent.com/45834270/98127403-f64c2a80-1eb6-11eb-8dd5-05c619c3d3d1.png)
 
