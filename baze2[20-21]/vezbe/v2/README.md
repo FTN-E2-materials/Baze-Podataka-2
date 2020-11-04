@@ -25,12 +25,12 @@
 # Utvrdjivanje ekvivalentnosti dva skupa
 
 <details>
-  <summary> Teorema </summary>
+  <summary> Teorema </summary><br>
 
-![image](https://user-images.githubusercontent.com/45834270/98117815-92236980-1eaa-11eb-8b26-6901f9badce7.png)
+![image](https://user-images.githubusercontent.com/45834270/98127403-f64c2a80-1eb6-11eb-8dd5-05c619c3d3d1.png)
 
 
-Uzmemo svaku fz i proveravamo da li su posledice od F1. 
+Iteriramo kroz svaku fz iz F1 i proveravamo da li su te fz **logicke posledice** u F2. Ako jesu, isto proverimo za sve fz i iz F2, tj da li su one logicke posledice u F1, ako jesu, skupovi funkcionalnih zavisnosti F1 i F2 su ekvivalentni. 
   
   </details>
 
@@ -39,12 +39,13 @@ Uzmemo svaku fz i proveravamo da li su posledice od F1.
 
 ### Primer
 
-Nadjemo zatvarac od A ali PO F1 ( BITNO! ). itd...
+  - Posmatramo recimo, prvu fz iz F2, sto je A->D
+  - Proveravamo da li je ona [logicka posledica](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/baze2%5B20-21%5D/vezbe/v1) nad F1 
+  - Posto utvrdujemo da jeste, prelazimo na sledecu fz iz F2, sto je DB->A i opet proveravamo da li je ona logicka posledica u F1
+  - itd...
 
-![image](https://user-images.githubusercontent.com/45834270/98118161-137afc00-1eab-11eb-8c9d-0ca09e35b012.png)
+![image](https://user-images.githubusercontent.com/45834270/98127855-783c5380-1eb7-11eb-9cc5-bce410ee08f7.png)
 
-A->D jeste logicka posledica od F1 (BITNO DA JE OD F1 )
-  
   
   </details>
 
@@ -52,4 +53,4 @@ A->D jeste logicka posledica od F1 (BITNO DA JE OD F1 )
 
 ## Napomena
 
-Mora da vazi u oba smera, odnosno, F1 mora biti lp F2 i **OBRNUTO** ! Ako se ispostavi da postoji jedan kontra primer, oni nisu ekvivalentni.
+U oba smera mora da vazi da svaka fz iz jednog skupa fz moze da se izvede iz drugog skupa fz! Ako se ispostavi da postoji jedan kontra primer, ta dva skupa fz nisu ekvivalentni.
