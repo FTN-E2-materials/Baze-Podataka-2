@@ -1,0 +1,26 @@
+Vezbe br.3 Baze 2 
+
+* Prva normalna forma 
+  Predpostavljamo da uvek vazi
+  Uglavnom ne dolaze zadaci koji ne ispunjavaju ovaj uslov, osim ako nije naznaceno da neko obelzje je skup ili slog ili tako nesto
+
+--Za sve ostale normalne forme (druga,treca,BK) obicno prvo gledamo sve funckionalne zavisnosti i da li one ispunjavaju neka pravila, ako sve ispunjavaju neka pravila onda 
+  je zadovoljena normalna forma u suprotnom nije
+
+--Funckionalna zavisnost X->A je POTPUNA ako ne postoji podskup od X koji isto odredjuje A
+
+
+* Duga normalna forma
+(Kpr su sva primarna obelezja. PRIMARNA obelezja su obelezja koja pripadaju bilo kom kljucu [mozemo imati vise kljuceva] )
+
+
+* Treca normalna forma
+
+* Bojs kodova normalna forma
+
+**** Algoritam za rad sa NORMALNIM FORMAMA: 
+[0 korak] Nadjemo kljuceve i posmatramo sva obelezja koja postoje u kljucu, odnosno sva obelezja podelimo u PRIMARNA(pripadaju barem jednom kljucu) 
+          i NEPRIMARNA (ne pripadaju ni jednom kljucu)
+[1 korak] 
+[2 korak]
+[3 korak]
