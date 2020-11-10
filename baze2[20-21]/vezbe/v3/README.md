@@ -29,9 +29,10 @@ Za sve ostale normalne forme (druga,treca,BK) obicno prvo ***gledamo sve funckio
 # Druga normalna forma 
 
 <details>
-  <summary> Teorema </summary> <br>
+  <summary> Definicija 2nf </summary> <br>
   
-  ![image](https://user-images.githubusercontent.com/45834270/98714921-c35bd800-2389-11eb-8b4c-22f47a164a9e.png)
+![image](https://user-images.githubusercontent.com/45834270/98717036-d45a1880-238c-11eb-8c75-0c0211ccfd71.png)
+
   
 </details>
 
@@ -45,9 +46,17 @@ Za sve ostale normalne forme (druga,treca,BK) obicno prvo ***gledamo sve funckio
 </details>
 
 <details>
+  <summary> Neprimarna obelezja </summary> <br>
+  
+  - **NEPRIMARNA** obelezja su ona obelezja koja ne pripadaju ni jednom kljucu
+  - odnosno, ona obelezja koja se nalaze sa desne strane funkcionalne zavisnosti 
+  
+</details>
+
+<details>
   <summary> Algoritam odredjivanja vazenja druge normalne forme </summary> <br>
   
-### Tumacenje teoreme
+### Tumacenje definicije
 
   - Nadjemo kljuceve i posmatramo sva obelezja koja postoje u kljucu, odnosno sva obelezja podelimo u  **PRIMARNA**(pripadaju barem jednom kljucu) i **NEPRIMARNA** (ne pripadaju ni jednom kljucu)
   - Potom uzmemo bilo koje neprimarno obelezje A ( ne pripada ni jednom kljucu) i uzmemo bilo koji kljuc X
@@ -59,7 +68,7 @@ Za sve ostale normalne forme (druga,treca,BK) obicno prvo ***gledamo sve funckio
 
 Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako nadjemo neku koja nije znaci ne ispunjava uslov Druge normalne forme.
   
-</details> <br>
+</details>
 
 <details>
   <summary> Primer1 </summary> <br>
@@ -122,7 +131,30 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
 # Treca normalna forma 
 
 <details>
+  <summary> Definicija tranzitivnosti </summary> <br>
   
+![image](https://user-images.githubusercontent.com/45834270/98717624-99a4b000-238d-11eb-9a70-d3736686416c.png)
+
+### Tumacenje
+
+  - X->A nije tranzitivno ukoliko ne postoji bar jedna od dve grane (X-> Y grana i Y->A grana) ili ukoliko postoji grana Y->X
+  
+</details>
+
+<details>
+  <summary> Definicija 3nf </summary> <br>
+  
+### Definicija
+
+![image](https://user-images.githubusercontent.com/45834270/98718216-6e6e9080-238e-11eb-92c3-ca73cfbd09c3.png)
+
+### Tumacenje definicije
+  - samo za **NEPRIMARNA** obelezja koja ne pripadaju ni jednom kljucu(nalaze se sa desne strane funkcionalne zavisnosti), kada uzmemo bilo koji kljuc, sada ce kljuc sigurno odredjivati to obelezje (znaci sigurno vazi X->A)
+  - ukoliko postoji neko Y, tako da Y->A nije trivijalna fz (posto je X kljuc, X ce sigurno odredjivati i Y) onda sigurno mora vaziti da Y odredjuje X (tada je Y neki nadskup kljuca) 
+  
+</details>
+
+<details>
   <summary> Algoritam odredjivanja vazenja trece normalne forme  </summary> <br>
   
 Najlakse se proverava na sledeci nacin:
@@ -130,9 +162,28 @@ Najlakse se proverava na sledeci nacin:
   - posmatramo sve funckionalne zavisnosti koje imamo  u skupu
   - gledamo da li se desava situacija da je negde sa desne strane neko neprimarno obelezje a sa leve strane nesto sto 
 funkcionalno ne odredjuje ni jedan kljuc
-  - ako immo tu situaciju to definitivno znaci da imamo neku tranzitivnu FZ od kljuca ka nekom neprimarnom obelezju
+  - ako imamo tu situaciju to definitivno znaci da imamo neku tranzitivnu FZ od kljuca ka nekom neprimarnom obelezju
 
 </details> <br>
+
+<details>
+  <summary> Primer 1 </summary> <br>
+
+![image](https://user-images.githubusercontent.com/45834270/98723485-bc859300-2392-11eb-9385-f1d933efe99c.png)
+
+  - kljuc seme je: OZN 
+  - posto kljuc ima jedno obelezje, zakljucujemo da su sva **neprimarna** obelezja u **potpunoj** fz u odnosu na svaki kljuc (zbog toga je zadovoljena 2nf)
+  - a posto postoji **tranzitivna fz** od **kljuca** do **neprimarnog** obelezja, srusili smo 3nf, jer da bi srusili 3nf, dovoljno je samo jedan kontra primer (bas kao ovaj) koji pokazuje **tranzitivnost** od **kljuca** ka **neprimarnom** obelezju
+
+</details>
+
+<details>
+  <summary> Napomena </summary>
+
+  - Za 3nf nemamo neku precicu kao kod 2nf gde cim vidimo da kljuc ima jedno obelezje mi zakljucujemo da su sva **neprimarna** obelezja u **potpunoj** fz u odnosu na svaki kljuc
+  - Najbolje za 3nf je da nadjemo *kontra primer* koji pokazuje **tranzitivnost** od **kljuca** ka **neprimarnom** obelezju i kazemo da zbog tog kontra primera, 3nf nije zadovoljena 
+
+</details>
 
 # Bojs kodova normalna forma
 
