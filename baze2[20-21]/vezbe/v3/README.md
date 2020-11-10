@@ -65,7 +65,7 @@ funkcionalno ne odredjuje ni jedan kljuc
   
   <summary> Algoritam odredjivanja vazenja Bojs kodove normalne forme </summary> <br>
   
-U izradi, trenutno se desifruje...
+Svaka netrivijalna FZ bilo kog atributa mora da sadrzi kljuc sa leve strane
 
 </details> <br>
 
