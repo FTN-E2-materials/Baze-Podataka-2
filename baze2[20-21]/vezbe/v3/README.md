@@ -178,7 +178,7 @@ funkcionalno ne odredjuje ni jedan kljuc
 </details>
 
 <details>
-  <summary> Napomena </summary>
+  <summary> Napomena </summary> <br>
 
   - Za 3nf nemamo neku precicu kao kod 2nf gde cim vidimo da kljuc ima jedno obelezje mi zakljucujemo da su sva **neprimarna** obelezja u **potpunoj** fz u odnosu na svaki kljuc
   - Najbolje za 3nf je da nadjemo *kontra primer* koji pokazuje **tranzitivnost** od **kljuca** ka **neprimarnom** obelezju i kazemo da zbog tog kontra primera, 3nf nije zadovoljena 
