@@ -164,7 +164,7 @@ Najlakse se proverava na sledeci nacin:
 funkcionalno ne odredjuje ni jedan kljuc
   - ako imamo tu situaciju to definitivno znaci da imamo neku tranzitivnu FZ od kljuca ka nekom neprimarnom obelezju
 
-</details> <br>
+</details>
 
 <details>
   <summary> Primer 1 </summary> <br>
