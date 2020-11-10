@@ -24,9 +24,7 @@ Za sve ostale normalne forme (druga,treca,BK) obicno prvo ***gledamo sve funckio
   
   Funckionalna zavisnost X->A je **POTPUNA** ako ne postoji podskup od X koji isto odredjuje A
   
-</details>
-  
-
+</details> <br>
 
 # Druga normalna forma 
 
@@ -44,7 +42,7 @@ Za sve ostale normalne forme (druga,treca,BK) obicno prvo ***gledamo sve funckio
   
 Gledamo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako nadjemo neku koja nije znaci ne  ispunjava uslov Druge normalne forme.
   
-</details>
+</details> <br>
 
 # Treca normalna forma 
 
@@ -59,7 +57,7 @@ Najlakse se proverava na sledeci nacin:
 funkcionalno ne odredjuje ni jedan kljuc
   - ako immo tu situaciju to definitivno znaci da imamo neku tranzitivnu FZ od kljuca ka nekom neprimarnom obelezju
 
-</details>
+</details> <br>
 
 # Bojs kodova normalna forma
 
@@ -69,7 +67,7 @@ funkcionalno ne odredjuje ni jedan kljuc
   
 U izradi, trenutno se desifruje...
 
-</details>
+</details> <br>
 
 ## Sve normalne forme
 
