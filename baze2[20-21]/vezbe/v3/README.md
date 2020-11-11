@@ -6,7 +6,7 @@
   
   </br>
 
-  - Predpostavljamo da uvek vazi
+  - Predpostavljamo da **uvek vazi**
   - Uglavnom ne dolaze zadaci koji ne ispunjavaju ovaj uslov, osim ako nije naznaceno da je neko obelezje skup, slog ili tako nesto
 
 </details>
@@ -182,20 +182,54 @@ funkcionalno ne odredjuje ni jedan kljuc
 
   - Za 3nf nemamo neku precicu kao kod 2nf gde cim vidimo da kljuc ima jedno obelezje mi zakljucujemo da su sva **neprimarna** obelezja u **potpunoj** fz u odnosu na svaki kljuc
   - Najbolje za 3nf je da nadjemo *kontra primer* koji pokazuje **tranzitivnost** od **kljuca** ka **neprimarnom** obelezju i kazemo da zbog tog kontra primera, 3nf nije zadovoljena 
+  - Ako imamo situaciju da nemamo neprimarna obelezja, samim tim nemamo tranzitivnost iz kljuca u neprimarno obelezje jer ga nema, te zakljucujemo da ako **nemamo neprimarno obelezje**, **zadovoljena** je 3nf
+  - Ako imamo situaciju da **ne postoje funkcionalne zavisnosti**(trivijalne ne gledamo) onda je sigurno **zadovoljena** 3nf
 
+</details> <br>
+
+# Bojs Kodova normalna forma - BCNF
+
+<details> 
+  <summary> Definicija BCNF </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/45834270/98741568-2dd23f80-23ad-11eb-8546-78e05a493934.png)
+
+### Tumacenje definicije
+
+  - uzmemo **bilo koji** atribut
+  - posmatramo **bilo koji** skup obelezja Y, tako da Y ne sadrzi A
+  - u koliko postoji neka ne trivijalna fz Y->A onda postoji neki kljuc koji je podskup leve strane(podskup Y-a)
+
+U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atributu** a ne samo o **neprimarnom atributu**
+  
 </details>
-
-# Bojs kodova normalna forma
 
 <details>
   
   <summary> Algoritam odredjivanja vazenja Bojs kodove normalne forme </summary> <br>
   
-Svaka netrivijalna FZ bilo kog atributa mora da sadrzi kljuc sa leve strane
+  - Svaka netrivijalna FZ **bilo kog atributa** mora da sadrzi kljuc sa leve strane
 
-</details> <br>
+</details>
 
-## Sve normalne forme
+<details>
+  <summary> Primer 1 </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/45834270/98748945-04b8ab80-23bb-11eb-8b6c-05afc1820a09.png)
+
+</details>
+
+<details>
+  <summary> Primer 2 </summary><br>
+  
+![image](https://user-images.githubusercontent.com/45834270/98749286-97f1e100-23bb-11eb-9d3f-947caed63861.png)
+</details>
+
+
+<br>
+
+
+# Sve normalne forme
 
 <details>
   <summary> Algoritam za rad sa normalnim formama </summary> <br>
@@ -210,10 +244,71 @@ Svaka netrivijalna FZ bilo kog atributa mora da sadrzi kljuc sa leve strane
 <details>
   <summary> Za sve normalne forme vazi </summary> <br>
   
-**Sema BP** (CELA BAZA PODATAKA) je u nekoj od normalnih formi ako su **sve seme relacija** u nekoj od normalnih formi
+  - **Sema BP** (CELA BAZA PODATAKA) je u nekoj od normalnih formi ako su **sve seme relacija** u nekoj od normalnih formi. 
+  - Ako posmatramo 'redosled' normalnih formi [1nf, 2nf, 3nf, bcnf, 4nf, ...] znamo da ako vazi recimo 3nf, mora da vazi 1nf i 2nf, odnosno ako vazi jedna normalna forma, sve one pre nje moraju da vaze
+   moze
      
+</details> <br>
+
+## Vezbanje
+
+<details>
+  <summary> Primer 1 </summary> <br>
+  
+#### Zadatak
+
+![image](https://user-images.githubusercontent.com/45834270/98749985-29158780-23bd-11eb-9a5f-17b80bcfeb70.png)
+
+
+#### Resenje
+
+![image](https://user-images.githubusercontent.com/45834270/98750002-33378600-23bd-11eb-9af5-de34b3c63190.png)
+
+  - nije u 2nf jer podskup kljuca moze da izvede neko neprimarno obelezje, npr BRI -> IME
+  - nije u 3nf jer imamo tranzitivnost kljuca ka neprimarnom obelezju, npr BRI -> NAZSMER
+  - posto je palo vec na 2nf, nije ni bilo potrebe ispitivati 3nf ( to je bilo cisto iz edukativne potrebe)
+  - a ostaje nam jedino 1nf, za koju uvek **predpostavljamo da vazi**
+  
 </details>
 
+<details>
+  <summary> Primer 2 </summary> <br>
+
+#### Pitanje
+
+U kojoj je normalnoj formi baza ?
+
+#### Odgovor
+
+Posto se baza sastoji od vise sema, gledamo koja je *najlosija* nf koju sve seme zadovoljavaju. Ako imamo 3 seme koje su u bcnf i jedna u 2nf, nasa baza je u 2nf.
+
+</details>
+
+<details>
+  <summary> Primer 3 </summary> <br>
+
+![image](https://user-images.githubusercontent.com/45834270/98754927-eb6a2c00-23c7-11eb-988d-ce671b2007b6.png)
+
+</details>
+
+<br>
+
+## Podsetnik
+
+<details>
+  <summary> Odredjivanje svih fz u semi relacije </summary> <br>
+  
+Npr. da bi odredili koje sve fz postoje u semama relacije na slici ispod:
+  - pogledamo polazni skup funkcionalnih zavisnosti F
+  - onda uradimo njegovu [projekciju](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/baze2%5B20-21%5D/vezbe/v2) po skupu obelezja seme relacije (Student i Prijava u nasem primeru)
+  - tada dobijamo skup funkcionalnih zavisnosti koji vazi unutar te male seme relacije 
+
+![image](https://user-images.githubusercontent.com/45834270/98753326-5a458600-23c4-11eb-9433-a050ec1b1ee2.png)
+
+  
+</details>
+
+<br>
 
 ## Beleske
 
