@@ -60,7 +60,7 @@ Za sve ostale normalne forme (druga,treca,BK) obicno prvo ***gledamo sve funckio
 
   - Nadjemo kljuceve i posmatramo sva obelezja koja postoje u kljucu, odnosno sva obelezja podelimo u  **PRIMARNA**(pripadaju barem jednom kljucu) i **NEPRIMARNA** (ne pripadaju ni jednom kljucu)
   - Potom uzmemo bilo koje neprimarno obelezje A ( ne pripada ni jednom kljucu) i uzmemo bilo koji kljuc X
-  - Znamo da svaki kljuc sigurno funkcionalno odredjuje svako obelezje a samim tim i svako ne primarno obelezje,
+  - Znamo da svaki kljuc sigurno funkcionalno odredjuje svako obelezje a samim tim i svako neprimarno obelezje,
   - Stoga, kljuc X sigurno odredjuje neprimarno obelezje A 
   - Ali ako posmatramo svaki moguci podskup od X-a, recimo podskup Y, znamo sigurno da ne vazi da podskup kljuca odredjuje A
 
