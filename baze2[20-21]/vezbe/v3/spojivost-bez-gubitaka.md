@@ -32,6 +32,27 @@
 </details>
 
 <details>
+  <summary> Algoritam </summary> <br>
+  
+  - kada imamo vise sema relacije, **proizvoljnim** redosledom vrsimo spajanje relacija 
+  - spajamo tako da u svakom koraku ono sto spajamo, mora da zadovoljava **teoremu o spojivosti bez gubitaka**
+  - ako smo **proizvoljnim** redosledom pokusali da spojimo dve relacije (npr R1 i R2 kao u zadataku 1) a one nisu spojive, to ne znaci da nasa SBP ne moze da se spoji **spajanjem drugih** kombinacija (odnosno mozemo sad da probamo R1 sa nekom drugom, pa kada to dobijemo onda mozemo taj spoj da probamo da spojimo sa R2 )
+  - tek kada **nikako**(ni preko jedne kombinacije) **ne mozemo da izvrsimo spajanje** sema relacija, tada SBP nema obezbedjenju **spojivost bez gubitaka**
+  
+  
+</details>
+
+<details>
+  <summary> Napomena </summary> <br>
+  
+  - treba spajati seme relacije koje **odmah mogu da se spoje** (jer redosled spajanja nije bitan !)
+  
+</details> <br>
+
+
+## Zadaci za vezbu 
+
+<details>
   <summary> Zadatak 1 </summary> <br>
   
 ## Polazni skup obelezja i funkcionalnih zavisnosti (U,F)
@@ -70,24 +91,6 @@ Da li je obezbedjena spojivost SBP(seme baze podataka) bez gubitaka ?
 
 Posto smo uspeli da spojimo sve, to znaci da je obezbedjena spojivost bez gubitaka.
 
-</details>
-
-<details>
-  <summary> Algoritam </summary> <br>
-  
-  - kada imamo vise sema relacije, **proizvoljnim** redosledom vrsimo spajanje relacija 
-  - spajamo tako da u svakom koraku ono sto spajamo, mora da zadovoljava **teoremu o spojivosti bez gubitaka**
-  - ako smo **proizvoljnim** redosledom pokusali da spojimo dve relacije (npr R1 i R2 kao u zadataku 1) a one nisu spojive, to ne znaci da nasa SBP ne moze da se spoji **spajanjem drugih** kombinacija (odnosno mozemo sad da probamo R1 sa nekom drugom, pa kada to dobijemo onda mozemo taj spoj da probamo da spojimo sa R2 )
-  - tek kada **nikako**(ni preko jedne kombinacije) **ne mozemo da izvrsimo spajanje** sema relacija, tada SBP nema obezbedjenju **spojivost bez gubitaka**
-  
-  
-</details>
-
-<details>
-  <summary> Napomena </summary> <br>
-  
-  - treba spajati seme relacije koje **odmah mogu da se spoje** (jer redosled spajanja nije bitan !)
-  
 </details>
 
 <br>
