@@ -96,8 +96,6 @@ Posto smo uspeli da spojimo sve, to znaci da je obezbedjena spojivost bez gubita
 <details>
   <summary> Zadatak 2 </summary> <br>
 
-### Dato je
-
 ![image](https://user-images.githubusercontent.com/45834270/98835124-4fc8d200-2440-11eb-880c-9ef93bc39d30.png)
 
 ### Odrediti kljuceve
@@ -106,9 +104,67 @@ Posto smo uspeli da spojimo sve, to znaci da je obezbedjena spojivost bez gubita
 
 ### Odrediti koje nf su tu zadovoljene 
 
-![image](https://user-images.githubusercontent.com/45834270/98836050-87844980-2441-11eb-9c56-4b955436cf9f.png)
+![image](https://user-images.githubusercontent.com/45834270/98836050-87844980-2441-11eb-9c56-4b955436cf9f.png) 
+  
+</details>
 
-  - za R1: posto se sa leve strane svake fz(ovde imamo jednu do duse) nalazi kljuc, zadovoljena je bcnf a samim tim i sve ostale nf 
+<details>
+  <summary> Zadatak 3 [tip zadatka za kolokvijum] </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/45834270/98845483-15fec800-244e-11eb-9316-8b38eb6cc404.png)
+
+## U kojoj nf se nalaze date sr 
+  
+![image](https://user-images.githubusercontent.com/45834270/98845762-7857c880-244e-11eb-8472-b98947198aac.png)
+
+![image](https://user-images.githubusercontent.com/45834270/98845793-83125d80-244e-11eb-9270-ac9774f72dc5.png)
+
+  - imamo 2 fz, za svaku od njih postoji neki kljuc koji se u potpunosti nalazi sa njihove leve strane tako da je zadovoljena bcnf a samim tim i sve pre nje 
+  
+![image](https://user-images.githubusercontent.com/45834270/98846166-ffa53c00-244e-11eb-9b71-4ec73a75ac24.png)
+
+  - ovo je najbolja varijanta kad za projekciju dobijemo trivijalne fz, tu odma znamo da vaze sve nf
+
+![image](https://user-images.githubusercontent.com/45834270/98846374-4430d780-244f-11eb-9592-dd349b4cfb76.png)
+
+  - bcnf nije zadovoljena jer imamo A->H i H->A jer sa leve strane neke fz se ne nalazi ceo kljuc    
+  
+![image](https://user-images.githubusercontent.com/45834270/98847184-34fe5980-2450-11eb-984d-779af8b0f219.png)
+
+  - jedna jedina fz, zadrzi kljuc sa leve strane te odma vazi bcnf i samim tim sve nf pre nje 
+
+## Da li je obezbedjena spojivost sbp bez gubitaka
+  
+  - ako proverimo sve moguce kombinacije i ne mozemo da dodjemo do citave SBP, tek onda nemamo obezbedjenu spojivost bez gubitaka
+  
+![image](https://user-images.githubusercontent.com/45834270/98847549-b81faf80-2450-11eb-9095-593e8058c498.png)
+
+![image](https://user-images.githubusercontent.com/45834270/98847759-0af96700-2451-11eb-9aed-2e410df0cdaf.png)
+
+![image](https://user-images.githubusercontent.com/45834270/98848019-64619600-2451-11eb-8459-19e95ae392d8.png)
+
+  
+</details> 
+
+<br>
+
+## Kolokvijum
+
+<details>
+  <summary> Tipovi zadatka </summary> <br>
+  
+  - na kolokvijum dolaze 2 laksa zadatka tipa treceg zadatka
+  - dobijemo skup obelezja i skup funkcionalnih zavisnosti 
+  - prvo pitanje je **u kojoj nf** se nalaze date seme relacije
+    - odredimo koji je kljuc 
+    - odredimo primarna i neprimarna obelezja 
+    - krenemo redom da proveravamo nf 
+    - prvo proverimo **PRECICE**: da li **postoje neprimarna obelezja**, jel **kljuc ima samo jedan atribut**, jel odma **zadovoljena bcnf**, jel odma **nije zadovoljena druga**
+  - nastavak prvog pitanje je i da na osnovu isprojektovane 2, 3 (koliko god) seme relacije (sa nekim skupovima obelezja) zakljucimo **koje funkcionalne zavisnosti** tu vaze
+    - to resavamo tako sto radimo **projekciju skupa fz na taj skup obelezja**
+    - kad imamo skup fz onda nadjemo kljuc i vidimo u kojoj su normalnoj formi
+  - poslednje pitanje moze da bude **da li vazi spoj bez gubitaka**
+
 </details>
 
 <br>
