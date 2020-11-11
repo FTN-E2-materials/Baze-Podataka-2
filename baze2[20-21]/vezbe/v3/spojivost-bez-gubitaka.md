@@ -59,7 +59,7 @@
 
 ![image](https://user-images.githubusercontent.com/45834270/98825239-8dbff900-2434-11eb-8855-79faf2526a75.png)
   
-## Preptostavka
+## Pretpostavka
 
 ![image](https://user-images.githubusercontent.com/45834270/98825265-96183400-2434-11eb-8777-cea734d288a3.png)
 
@@ -91,6 +91,24 @@ Da li je obezbedjena spojivost SBP(seme baze podataka) bez gubitaka ?
 
 Posto smo uspeli da spojimo sve, to znaci da je obezbedjena spojivost bez gubitaka.
 
+</details>
+
+<details>
+  <summary> Zadatak 2 </summary> <br>
+
+### Dato je
+
+![image](https://user-images.githubusercontent.com/45834270/98835124-4fc8d200-2440-11eb-880c-9ef93bc39d30.png)
+
+### Odrediti kljuceve
+
+![image](https://user-images.githubusercontent.com/45834270/98835960-628fd680-2441-11eb-9049-99e95dc7736a.png)
+
+### Odrediti koje nf su tu zadovoljene 
+
+![image](https://user-images.githubusercontent.com/45834270/98836050-87844980-2441-11eb-9c56-4b955436cf9f.png)
+
+  - za R1: posto se sa leve strane svake fz(ovde imamo jednu do duse) nalazi kljuc, zadovoljena je bcnf a samim tim i sve ostale nf 
 </details>
 
 <br>
