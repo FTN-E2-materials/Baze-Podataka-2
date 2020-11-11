@@ -71,7 +71,7 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
 </details>
 
 <details>
-  <summary> Primer1 </summary> <br>
+  <summary> Primer 1 </summary> <br>
   
 ![image](https://user-images.githubusercontent.com/45834270/98703503-d9629c00-237b-11eb-9fb1-44dd916a5b56.png)
 
@@ -87,7 +87,7 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
 </details>
 
 <details>
-  <summary> Primer2 </summary> <br>
+  <summary> Primer 2 </summary> <br>
   
 ![image](https://user-images.githubusercontent.com/45834270/98706787-8ee31e80-237f-11eb-91fa-731b5c34c0fd.png)
 
@@ -288,6 +288,19 @@ Posto se baza sastoji od vise sema, gledamo koja je *najlosija* nf koju sve seme
   <summary> Primer 3 </summary> <br>
 
 ![image](https://user-images.githubusercontent.com/45834270/98754927-eb6a2c00-23c7-11eb-988d-ce671b2007b6.png)
+
+</details>
+
+<details>
+  <summary> Primer 4 </summary> <br>
+
+  - fora kada **NEMAMO NEPRIMARNA OBELEZJA**
+  - primetili smo da imamo 2 kljuca
+  - svako od obelezja se nalazi unutar jednog od kljuceva 
+  - to znaci da nemamo neprimarna obelezja 
+  - u tom slucaju automatski znaci da 2nf i 3nf vaze 
+
+![image](https://user-images.githubusercontent.com/45834270/98755051-1fdde800-23c8-11eb-98f1-064b2234ef31.png)       
 
 </details>
 
