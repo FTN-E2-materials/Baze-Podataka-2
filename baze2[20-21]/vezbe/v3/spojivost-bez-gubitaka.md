@@ -1,0 +1,1 @@
+# Spojivost bez gubitaka
