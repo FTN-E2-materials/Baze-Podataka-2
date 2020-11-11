@@ -325,7 +325,7 @@ Npr. da bi odredili koje sve fz postoje u semama relacije na slici ispod:
 
 ## Beleske
 
-Poslednji primer i po formi i po tezini odgovoara nekom tezem zadataku koji moze da dodje na kolokvijumu. Za drugi, trecu i bojskodovu normalnu formu obicno gledamo funkcionalne zavisnosti unutar seme relacije i onda posmatramo da li sve fz ispunjavaju neko pravilo, ako neka ne ispunjaava, onda odredjena normalna forma nije zadovoljena. A ako sve fz ispunjavaju neko pravilo onda kazemo da je ta normalna forma zadovljena.
+Poslednji primer i po formi i po tezini odgovoara nekom tezem zadataku koji moze da dodje na kolokvijumu. 
 
 
 
