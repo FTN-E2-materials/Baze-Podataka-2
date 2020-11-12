@@ -225,6 +225,12 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 ![image](https://user-images.githubusercontent.com/45834270/98749286-97f1e100-23bb-11eb-9d3f-947caed63861.png)
 </details>
 
+<details>
+  <summary> Napomena </summary> <br>
+  
+  - iteriramo kroz svaku fz, i svaka od njih sa leve strane mora da ima bar jedan **CITAV** kljuc(tipa ako je kljuc AC, a imamo fz A->D, bcnf nije zadovoljena jer sa leve strane ove fz se ne nalazi **CITAV** kljuc nego samo njegov deo, tj A)
+  
+</details>
 
 <br>
 
