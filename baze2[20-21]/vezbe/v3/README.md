@@ -4,11 +4,11 @@
 
 
 <details>
-  <summary> Precice </summary>
+  <summary> Precice za proveru NF </summary>
   
-## Precice
+## Precice 
 
-- ako sr ne sadrzi **neprimarna** obelezja, ona je sigurno barem u **3NF**
+- ako sr nema **neprimarnih** obelezja, ona je sigurno barem u **3NF**
 - ako u sr **ne postoje funkcionalne zavisnosti**, ona je sigurno barem u **3NF**
 - cim svaki **kljuc** ima **jedno obelezje**, sr je sigurno barem u **2NF**
   
@@ -16,7 +16,7 @@
 
 
 <details>
-  <summary> Saveti </summary>
+  <summary> Saveti za proveru NF</summary>
   
 ## Saveti
   - **prvo proveriti BCNF** jer ako je on zadovoljen, **SR je u BCNF**
