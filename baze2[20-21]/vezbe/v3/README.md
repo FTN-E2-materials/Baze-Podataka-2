@@ -25,6 +25,15 @@
   
 </details>
 
+<details>
+  <summary> Precice za proveru ocuvanja spojivosti bez gubitaka informacije </summary>
+  
+## Precice 
+
+- (**OVO TREBA DOBRO PROVERITI, NISAM SIGURAN, ALI OVO SU NAPISALI U ZBIRCI**) Spojivost bez gubitaka informacija je ocuvana ako **jedna od sema relacija**( iz skupa sema relacija) **sadrzi kljuc polazne seme relacije** ( kljuc univerzalne seme relacije)
+  
+</details>
+
 
 <details>
   <summary> Recnik </summary>
