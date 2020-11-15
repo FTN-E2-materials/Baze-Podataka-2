@@ -8,6 +8,11 @@
   - ako u zatvaracu te kombinacije postoji obelezje(ili skup obelezja) iz polaznog skupa, zakljucujemo: **KOMBINACIJA -> OBELEZJE** tj kombinacija odredjuje to obelezje(ili taj skup obelezja)
   - ono sto posmatramo iz tog **obelezja(skupa obelezja)** su ona obelezja koja **nisu kombinacija** ali jesu obelezja iz polaznog skupa  
   - svaku trivijalnu fz ne pisemo, dovoljno je napisati samo *trivijalne* sto oznacava sve trijvijalne fz 
+  - ono sto takodje ne pisemo je slucaj:
+    - ako nam vazi A->nesto
+    - i imamo W koje je nadskup od A
+    - ne pisemo W->nesto
+    - jer se **podrazumeva zbog prosirivanja**
   
   </details>
   
