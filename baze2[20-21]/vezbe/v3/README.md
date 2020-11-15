@@ -8,8 +8,8 @@
   
 ## Precice 
 
+- ako u sr **ne postoje funkcionalne zavisnosti**, ona je sigurno barem u **BCNF**
 - ako sr nema **neprimarnih** obelezja, ona je sigurno barem u **3NF**
-- ako u sr **ne postoje funkcionalne zavisnosti**, ona je sigurno barem u **3NF**
 - cim svaki **kljuc** ima **jedno obelezje**, sr je sigurno barem u **2NF**
   
 </details>
