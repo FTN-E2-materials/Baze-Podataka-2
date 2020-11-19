@@ -1,0 +1,36 @@
+Prva normalna forma: 
+	- Svako obelezje je atomican podatak
+	- Ovo je implicitno za nase zadatke posto koristimo A,B,C... oznake, pretpostavimo da je tacno
+
+Druga normalna forma
+	- Ako je neprimarno obelezje zavisno od nekog X, koje nije neprimarno, onda X mora biti neki od kljuceva.
+	- Kad posmatramo šemu, ako je kljuc {A,B}, a neprimarno polje {C}
+	  Onda mora da se desi FZ: AB -> C
+	  Ako imamo A -> C ili B -> C, to je nepotpuna FZ i narusava 2NF 
+
+	- Takodje, ako imamo jos jedno neprimarno polje D, onda je dozvoljeno
+		D -> C
+
+	* Ako PK cini samo jedno obelezje (prost kljuc), onda 2NF uvek vazi
+
+Treca normalna forma  
+	Ako imamo FZ: X -> Y, a Y je neprimarno obelezje, onda X mora funkcionalno da odredjuje neki od kljuceva. Ako ne odredjuje, ovaj zahtev nije ispunjen.
+
+Boyce-Codd normalna forma 
+	- Sa leve strane FZ se uvek nalazi kljuc, nebitno da li je desno neprimarno ili primarno.
+
+
+* Ako nema neprimarnih obelezja, 2NF i 3NF sigurno vaze
+
+
+Spajanje bez gubitaka
+
+	- Sta mora da vazi? 
+
+			R1 <presek> R2 = (R1 \ R2)
+
+		ili
+
+			R1 <presek> R2 = (R2 \ R1)
+		
+		Koja god od ove 2 da vazi, dovoljno je da kazemo da su spojive. 

@@ -1,3 +1,6 @@
-# BazePodataka2
+# Baze Podataka 2
 
-Materijal koristan za razumevanje i pracenje predmeta Baze podataka 2 [Fakultet tehnickih nauka].
+### Sadržaj: 
+* Predavanja 
+* Vezbe
+* Uradjeni zadaci sa testova
