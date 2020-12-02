@@ -12,7 +12,7 @@ Some snippet of text
 
 # Normalne forme i normalizacija
 
- - Ova tema se jako lepo mapira na vezbe gde je sve lepo objasnjeno uz [detalje](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/baze2%5B20-21%5D/vezbe/v3)
+ - Ova tema se jako lepo mapira na vezbe gde je sve lepo objasnjeno uz [detalje](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Vezbe/v3)
 
 
 ## Sablon narusavanja 3nf
