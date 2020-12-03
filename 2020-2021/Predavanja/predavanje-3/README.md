@@ -32,7 +32,7 @@ ako vazi
 
 
 
-## Koristna teorema
+## Korisna teorema
 
 Spoj nad projekcijama treba da nam da citav r, ako dobijemo citav r onda vazi zavisnost spoja.
  
