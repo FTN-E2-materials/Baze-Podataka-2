@@ -200,11 +200,17 @@ Kada smo zavrsili sa trenutnom manipulacijom, sada ono sto je bilo u skupu J tre
 </details>
 
 <details>
-  <summary> Primer </summary> <br>
-
-  - posto angazovanje+ 
-
+  <summary> Primer1 </summary> <br>
+  
 ![image](https://user-images.githubusercontent.com/45834270/101066201-602f2100-3596-11eb-9d4b-aabf1c237330.png)
+</details>
+
+<details>
+  <summary> Primer2 </summary> <br>
+  
+  - N1[D] podskup N2[D]: D je iz R2 otisao u R1 kao strani kljuc
+  - N2[E] podskup N3[E]: E je iz R3 otisao u R2 kao strani kljuc 
+  ![image](https://user-images.githubusercontent.com/45834270/101073710-26fbae80-35a0-11eb-9fbb-171110a00542.png)
 </details>
 
 <br><br>
