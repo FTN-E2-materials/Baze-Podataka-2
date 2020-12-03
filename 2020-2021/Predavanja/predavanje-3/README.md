@@ -66,7 +66,7 @@ Spoj nad projekcijama treba da nam da citav r, ako dobijemo citav r onda vazi za
  <summary> Odgovor-1 </summary>
  </br>
  
- Tako sto cemo proveriti da li spojevi projekcija daju r. Pogledati koristnu teoremu iznad. Znaci :
+ Tako sto cemo proveriti da li spojevi projekcija daju r. Pogledati korisnu teoremu iznad. Znaci :
   - napravimo projekcije nase polazne relacije na svaku komponentu zavisnosti spoja
   - onda ih spojimo
   - ako dobijemo polaznu relaciju r onda je zavisnost spoja zadovoljena.
