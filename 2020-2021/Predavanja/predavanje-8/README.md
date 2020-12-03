@@ -216,12 +216,3 @@ Kada smo zavrsili sa trenutnom manipulacijom, sada ono sto je bilo u skupu J tre
 <br><br>
 </details>
 
-<details>
-  <summary> Ocuvanje spoja bez gubitaka </summary> <br>
-  
-</details>
-
-<details>
-  <summary> Fz kao posledica kljuca </summary> <br>
-  
-</details>
