@@ -7,6 +7,7 @@
   - primeri neki tipa da objasnis koje anomalije ce se desiti i zasto se desavaju
   - definicija viseznacne zavisnosti
   - definicija zavisnosti spoja
+  - Uglavnom, bitne su definicije dosta
 
   
 #### Kolega B
