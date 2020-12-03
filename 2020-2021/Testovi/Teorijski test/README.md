@@ -27,7 +27,7 @@
   
 #### Koleginica D
 
-  - secam se da je pitao iz sveske dosta, ono sve sto nema na slajdovima ( u nasem slucaju je to [ovo](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-2) i [ovo](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3)
+  - secam se da je pitao iz sveske dosta, ono sve sto nema na slajdovima ( u nasem slucaju je to [ovo](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-2) i [ovo](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) )
   - zadacica je bilo tipa 3
   - jedno, dva pitanja na zaokruzivanje
   - normalne forme obavezno
