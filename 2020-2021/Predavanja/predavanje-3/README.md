@@ -28,7 +28,7 @@ ako vazi
 ![image](https://user-images.githubusercontent.com/45834270/97725849-ee634380-1ace-11eb-8fa8-642a3231cfdc.png)
 
 
-(grozna formula, bolje je ova **koristna teorema** ispod tj. laksi nacin je taj gde pravimo projekcije i onda te projekcije spajamo, ako za to spajanje dobijemo citav r to znaci da je zadovoljena zavisnost spoja )
+(grozna formula, bolje je ova **korisna teorema** ispod tj. laksi nacin je taj gde pravimo projekcije i onda te projekcije spajamo, ako za to spajanje dobijemo citav r to znaci da je zadovoljena zavisnost spoja )
 
 
 
