@@ -33,3 +33,28 @@
   - jedno, dva pitanja na zaokruzivanje
   - normalne forme obavezno
   - pitao je da se objasne i vise normalne forme 4,5 ...
+  
+  
+<br>
+<details>
+  <summary> Zakljucak mogucih pitanja </summary> <br>
+  
+Ovo je samo neka *moja procena* koja pitanja bi mogla biti na osnovu onoga sto su rekle starije kolege:
+
+  1. naci kljuc
+  2. naci kljuc
+  3. zadacic iz nf
+  4. zadacic iz dekompozicije
+  5. zadacic iz sinteze
+  6. definicija neke od visih nf
+  7. definicija zavisnosti spoja
+  8. definicija viseznacne zavisnosti
+  9. zaokruziti tacan odgovor
+  10. zaokruziti tacan odgovor
+  11. opisati neku od anomalija
+  12. ...
+  13. ...
+  14. ...
+  15. ...
+
+</details>
