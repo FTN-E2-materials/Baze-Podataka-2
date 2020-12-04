@@ -119,3 +119,56 @@ Sva cetri kriterijuma u praksi nisu uvek zadovoljena
 Kada uzmemo jednu relaciju nad nekim skupom obelezja i napravimo projekciju nad jednim podskupom i projekciju nad drugim podskupom(unija ta dva podskupa je orginalni skup), njihov prirodni spoj treba da vrati celu univerzalnu realciju. Ako se to desilo i ako nemamo visak torki, onda imamo **spojivost bez gubitaka**.
 
 
+## Anomalije azuriranja 
+
+Uvođenje pojma anomalija ažuriranja, čija eliminacija predstavlja jedan od osnovnih motiva za projektovanje šeme baze podataka.
+
+<details>
+ <summary> Anomalija upisa </summary> <br><br>
+ 
+<details>
+ <summary> Sema relacije Fakultet </summary> <br>
+ 
+![image](https://user-images.githubusercontent.com/45834270/101157673-c5cced00-362a-11eb-90dc-6d454eaa3088.png) 
+</details>
+
+ - u relaciju Fakultet se ne mogu upisati podaci o novom nastavniku, dogod se ne zna predmet, koji će izvoditi i bar jedan student, kojem će predavati
+ - analogna situacija nastupa i pri pokušaju upisa podataka o novom predmetu ili studentu
+
+### Zakljucak
+
+Upis torke sa **nepoznatom vrednošću** za bar jedno **primamo obeležje**, dovodi do narušavanja integriteta entiteta. Ovakve pojave se nazivaju **anomalijama upisa**.
+
+<br><br>
+</details>
+
+<details>
+ <summary> Anomalija modifikacije </summary> <br><br>
+ 
+<details>
+ <summary> Sema relacije Fakultet </summary> <br>
+ 
+![image](https://user-images.githubusercontent.com/45834270/101157673-c5cced00-362a-11eb-90dc-6d454eaa3088.png) 
+</details>
+ 
+ - Kada neki student položi ispit iz nekog predmeta, u relaciju se upisuje nova torka sa povećanim brojem položenih ispita za tog studenta
+ - međutim, da bi i ažurirana relacija zadovoljavala funkcionalnu zavisnost BRI—>BPI, potrebno je modifikovati vrednosti obeležja BPI i u svim onim torkama, koje sadrže podatke o posmatranom studentu 
+ - ovakve pojave se nazivaju **anomalijama modifikacije**
+ 
+<br><br>
+</details>
+
+<details>
+ <summary> Anomalija brisanja </summary> <br><br>
+ 
+<details>
+ <summary> Sema relacije Fakultet </summary> <br>
+ 
+![image](https://user-images.githubusercontent.com/45834270/101157673-c5cced00-362a-11eb-90dc-6d454eaa3088.png) 
+</details>
+
+ - Ako se, iz relacije, žele brisati podaci (13, Ana, Tot. 1), biće izbrisana cela torka (13, Ana, Tot. 1, P1, Mat, N3, Pap, 06), ponovo zbog *integriteta entiteta*. 
+ - međutim, time se gube i podaci o nastavniku (N3,Pap), koji je imao samo tog jednog studenta, kao i informacija da taj nastavnik predaje predmet (P1, Mat)
+ - ovakve pojave se nazivaju **anomalijama brisanja**
+ 
+</details>
