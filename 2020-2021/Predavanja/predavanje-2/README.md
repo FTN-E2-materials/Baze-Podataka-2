@@ -12,7 +12,7 @@ Some snippet of text
 
 ### Teorema
 
-Ako vazi fz(funkcijonalna zavisnost) x u y u relaciji r, tada bas ovaj prirodni spoj xy od r i  x(u bez y) od r ce dati polaznu relaciju r
+Ako vazi fz(funkcionalna zavisnost) x u y u relaciji r, tada bas ovaj prirodni spoj xy od r i  x(u bez y) od r ce dati polaznu relaciju r
 
 ![image](https://user-images.githubusercontent.com/45834270/97109370-2cc5c080-16d3-11eb-82e2-f818c7a264c3.png)
 
