@@ -11,7 +11,7 @@ Some snippet of text
 -->
 
 
-# Nastavak sa predavanja-1
+# Nastavak sa predavanja-2
 
 ### Zavisnost spoja
 
