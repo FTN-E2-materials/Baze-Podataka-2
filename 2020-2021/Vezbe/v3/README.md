@@ -31,6 +31,22 @@
 ## Precice 
 
 - (**OVO TREBA DOBRO PROVERITI, NISAM SIGURAN, ALI OVO SU NAPISALI U ZBIRCI**) Spojivost bez gubitaka informacija je ocuvana ako **jedna od sema relacija**( iz skupa sema relacija) **sadrzi kljuc polazne seme relacije** ( kljuc univerzalne seme relacije)
+
+- (**Provereno sa Maksimom**)
+
+    Колега,
+
+    могуће је конструисати пример у ком имате кључ полазне шеме у некој од подшема, а да спојивост без губитака није задовољена.
+    Нпр R={A,B,C,D,E,F} K={A}
+    и имате конструисане подшеме R1={A,B,C} K1={A} и R2={D,E,F},K2={E}.
+    Кључ полазне шеме јесте у скупу обележја R1, али пошто R1 и R2 немају заједничких обележја, последично ни не постоји кључ неке од њих у скупу обележја оне друге, њихов спој     би резултовао декартовим производом, односно не би сте имали спој без губитака.
+
+    Да резимирам, потребно је спој урадити поступно као што је дато у презентацијама.
+
+    Поздрав,
+    Максим
+
+
   
 </details>
 
