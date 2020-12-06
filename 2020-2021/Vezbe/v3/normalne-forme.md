@@ -1,5 +1,12 @@
 # Prva normalna forma 
-
+<details>
+  <summary> Definicija </summary>
+   
+   - Relacija je u prvoj normalnoj formi (1NF) ako svi njeni atributi imaju samo atomske (nedeljive) vrednosti.
+   
+   - Šta je to atomska vrednost? Atomska vrednost je vrednost koja se nemože dalje deliti na prostije činioce. U mom tumačenju – atomska vrednost je vrednost koju nema smisla        dalje deliti na prostije činioce.
+    
+</details>
 <details>
   
   <summary> Pretpostavka </summary>
