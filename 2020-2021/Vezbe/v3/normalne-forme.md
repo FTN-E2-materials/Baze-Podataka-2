@@ -1,6 +1,6 @@
 # Prva normalna forma - 1NF
 <details>
-  <summary> Definicija </summary>
+  <summary> Definicija 1NF </summary>
    
    - Relacija je u prvoj normalnoj formi (1NF) ako svi njeni atributi imaju samo atomske (nedeljive) vrednosti.
    
