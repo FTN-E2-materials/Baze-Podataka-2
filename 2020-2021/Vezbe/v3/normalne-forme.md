@@ -1,4 +1,4 @@
-# Prva normalna forma 
+# Prva normalna forma - 1NF
 <details>
   <summary> Definicija </summary>
    
@@ -33,7 +33,7 @@ Za sve ostale normalne forme (druga,treca,BK) obicno prvo ***gledamo sve funckio
   
 </details> <br>
 
-# Druga normalna forma 
+# Druga normalna forma - 2NF
 
 <details>
   <summary> Definicija 2nf </summary> <br>
@@ -135,7 +135,7 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
   
 </details> <br>
   
-# Treca normalna forma 
+# Treca normalna forma - 3NF
 
 <details>
   <summary> Definicija tranzitivnosti </summary> <br>
