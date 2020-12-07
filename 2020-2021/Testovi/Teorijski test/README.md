@@ -52,9 +52,9 @@ Ovo je samo neka *moja procena* koja pitanja bi mogla biti na osnovu onoga sto s
   9. zaokruziti tacan odgovor
   10. zaokruziti tacan odgovor
   11. opisati neku od anomalija
-  12. ...
-  13. ...
-  14. ...
-  15. ...
+  12. test pitanja sa predavanja 2
+  13. test pitanja sa predavanja 2
+  14. test pitanja sa predavanja 2
+  15. test pitanja sa predavanja 3
 
 </details>
