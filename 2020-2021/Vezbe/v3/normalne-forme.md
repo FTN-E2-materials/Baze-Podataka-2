@@ -253,6 +253,18 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
 <br>
 
+# Peta normalna forma - 5NF (Normalna forma projekcije i spoja - PJNF)
+
+<details> 
+  <summary> Definicija 5NF/PJNF </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/49925421/101393124-de593380-38c6-11eb-9feb-6a75f51c589c.png)
+
+
+</details>
+
+<br>
+
 # Sve normalne forme
 
 <details>
