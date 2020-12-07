@@ -241,6 +241,17 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
 <br>
 
+# Cetvrta normalna forma - 4NF
+
+<details> 
+  <summary> Definicija 4NF </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/49925421/101392627-4bb89480-38c6-11eb-820a-f8a977d988fa.png)
+
+
+</details>
+
+<br>
 
 # Sve normalne forme
 
