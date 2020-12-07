@@ -45,7 +45,7 @@ Iteriramo kroz svaku fz iz F1 i proveravamo da li su te fz **logicke posledice**
 ### Primer
 
   - Posmatramo recimo, prvu fz iz F2, sto je A->D
-  - Proveravamo da li je ona [logicka posledica](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/baze2%5B20-21%5D/vezbe/v1) nad F1 
+  - Proveravamo da li je ona [logicka posledica](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Vezbe/v1) nad F1 
   - Posto utvrdujemo da jeste, prelazimo na sledecu fz iz F2, sto je DB->A i opet proveravamo da li je ona logicka posledica u F1
   - itd...
 
