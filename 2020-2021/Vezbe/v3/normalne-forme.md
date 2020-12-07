@@ -265,6 +265,19 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
 <br>
 
+# Sesta normalna forma - 6NF (Normalna forma domena i kljuceva - DKNF)
+
+<details> 
+  <summary> Definicija 6NF/DKNF </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/49925421/101393227-08aaf100-38c7-11eb-8a7e-fca0f8da40e7.png)
+
+
+
+</details>
+
+<br>
+
 # Sve normalne forme
 
 <details>
