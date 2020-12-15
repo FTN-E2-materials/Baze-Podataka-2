@@ -88,11 +88,51 @@ Ako je **kljuc jedne migriran u skup obelezja druge** onda imamo spoj bez gubita
 </details>
 
 
-<br>
 </details>
 
-<br>
+
+<details>
+  <summary> Referencijalni integriteti </summary> <br>
+
+  - u nasim zadacima je potrebno da vidimo samo koji strani kljucevi postoje
+  - to utvrdjujemo tako sto posmatramo parove izmedju sema relacije i gledamo da li **kljuc jedne nalazi u skupu obelezja druge**
+  
+</details>
+
+
+<details>
+  <summary> Radjenje zadataka </summary> <br>
+
+  - nadjemo kljuc univerzalne seme relacije 
+  - ako vidimo da imamo gubitak fz, znamo da dekomponovanjem po toj fz nismo ni u P1 ni u P2
+  - odredjivanje kljuca i nf ne moramo pisati postupno, to se podrazumeva da znamo
+ 
+ <details>
+  <summary> Primer 2 </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/45834270/102254215-a7a79c80-3f08-11eb-835b-ffaea7cfe623.png)
+  
+![image](https://user-images.githubusercontent.com/45834270/102254271-b55d2200-3f08-11eb-9173-8696b226af7c.png)
+
+  
+Dobili smo da zadovoljava P1, ono sto je bilo kljucno je da unija F-ova dece jeste ekvivalenetna sa roditeljskim F-om. E sad, zasto je tako ispalo:
+  - kad posmatramo fz **A->B , vidimo da je B samo u ovoj fz s desne Z stane** i nigde se vise ne javlja, odnosno u ostalim fz nemamo B **sa leve strane**
+    - to je fz ***na kraju lanaca izvodjenja***
+    - B ima **jednu ulaznu granu i 0 izlaznih** i to znaci da je na kraju lanaca izvodjenja
+  
+</details>
+ 
+</details>
+
+<br> <br>
+
+## Precice
+
+  - najveca precica je kada imamo fz koja je na kraju lanca izvodjenja i tada cemo vrv biti odma u P1 i najlakse cemo naci projekcije skupa fz i najbrze cemo preci u narednu iteraciju dekompozicije 
+  
 
 ## Saveti 
 
   - zbog nedostatka vremena najbolje prvo raditi sintezu, jer u dekompoziciji je najveci problem trazenje projekcija skupova fz (kojih ima gomila), pa onda ako imamo vremena, radimo postupno, u suprotnom radimo po *osecaju*
+  
+ 
