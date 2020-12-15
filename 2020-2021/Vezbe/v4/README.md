@@ -99,6 +99,19 @@ Ako je **kljuc jedne migriran u skup obelezja druge** onda imamo spoj bez gubita
   
 </details>
 
+<details>
+  <summary> Spojivost na osnovu identicnih & ekvivalentnih kljuceva </summary> <br>
+
+### Na osnovu identicnih
+
+  - posmatramo da li neke od sema imaju identicne kljuceve ( bukvalno **iste kljuceve** ), ako imaju => *mozemo ih spojiti*
+
+### Na osnovu ekvivalentnih kljuceva 
+  
+  - kljucevi su ekvivalentni ako imaju **jednake zatvarace**
+  
+</details>
+
 
 <details>
   <summary> Radjenje zadataka </summary> <br>
