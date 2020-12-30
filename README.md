@@ -13,6 +13,12 @@
         * Prevodjenje ER seme u relacioni model podataka 
         * Maksimalno
             * 10 + 15 + 10 bodova, ukupno 35
+        * [Aplikacija za pomoć u izradi prva 2 testa](http://database-schema-analysis-tool.herokuapp.com/)
+            * Sadrži:
+                * Računanje ključa i neprimarnih obeležja
+                * Računanje normalnih formi
+                * Postupnu izradu kanoničkog pokrivača
+                * Postupnu izradu sinteze
     * Projekat 1
         * Projekat seme baze podataka
         * Zaokruzenje kompletno stecenog znanja iz dva predmeta Baze podataka (BP1 + BP2) 
