@@ -1,0 +1,1 @@
+## Prevodjenje ER-a u relacioni model
