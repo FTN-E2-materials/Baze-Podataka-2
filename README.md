@@ -5,6 +5,9 @@
 * Vezbe
 * Uradjeni zadaci sa testova
 
+<details>
+   <summary> Bodovanje </summary>
+   
 ### Polaganje predmeta (bodovanje)
 * Prakticni deo = 55 bodova
     * 3 zadatka
@@ -31,3 +34,5 @@
         * 30 bodova
 
 * Sveukupno 100 poena na predmetu
+
+</details>
