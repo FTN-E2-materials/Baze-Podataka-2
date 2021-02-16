@@ -132,7 +132,7 @@ Uvođenje pojma anomalija ažuriranja, čija eliminacija predstavlja jedan od os
 ![image](https://user-images.githubusercontent.com/45834270/101157673-c5cced00-362a-11eb-90dc-6d454eaa3088.png) 
 </details>
 
- - u relaciju Fakultet se ne mogu upisati podaci o novom nastavniku, dogod se ne zna predmet, koji će izvoditi i bar jedan student, kojem će predavati
+ - u relaciju Fakultet se ne mogu upisati podaci o novom nastavniku, dokle god se ne zna predmet, koji će izvoditi i bar jedan student, kojem će predavati
  - analogna situacija nastupa i pri pokušaju upisa podataka o novom predmetu ili studentu
 
 ### Zakljucak
