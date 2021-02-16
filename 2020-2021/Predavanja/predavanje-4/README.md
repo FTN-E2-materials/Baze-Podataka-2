@@ -42,6 +42,8 @@
  
   - kada radimo dokaz neke ekvivalencije, moramo odraditi dokaz implikacije na obe strane
  
+ <br>
+ 
  <details> 
  <summary> Desna implikacija </summary>
  
@@ -180,11 +182,43 @@
 
   - sada krecemo dalje, odnosno, mi predpostavljamo da ta nasa relacija **ne zadovoljava ni jednu** od [nase dve fz](https://prnt.sc/zrt0e1) a **zadovoljava ceo F** 
   
-![image](https://user-images.githubusercontent.com/45834270/108122805-2786ea00-70a5-11eb-8d11-25a6ed111043.png)
+![image](https://user-images.githubusercontent.com/45834270/108126078-ada52f80-70a9-11eb-9f86-5be458227b87.png)
+
+![image](https://user-images.githubusercontent.com/45834270/108126325-01b01400-70aa-11eb-9e9e-f7fa800f206a.png)
 
 <br>
 
+  - torke su jednake nad [ovim](https://prnt.sc/zrxken)
 
+![image](https://user-images.githubusercontent.com/45834270/108126526-3cb24780-70aa-11eb-87c2-345ec8a59eb3.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/45834270/108126817-93b81c80-70aa-11eb-93f6-159e5041fef3.png)
+
+<br>
+
+### Zakljucak
+
+  - iz cinjenice da nasa relacija ne zadovoljava zavisnost spoja a zadovoljava nas skup fz onda znaci da nasa zavisnost spoja nije sigurno posledica funkcionalnih zavisnosti a po polaznoj predpostavci je bila ( i dosli smo do kontradikcije, tj. oborili smo nasu suprotnu predpostavku i dokazali nase polazno tvrdjenje)
+
+![image](https://user-images.githubusercontent.com/45834270/108126899-b1858180-70aa-11eb-8bc3-eebad177cc8a.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
 
  </details>
  
