@@ -1,14 +1,32 @@
-<!-- Summary snippet
+## Teorema o spojivosti bez gubitaka
 
 <details>
- <summary> Name of Summary </summary> 
-  
-Some snippet of text
+ <summary> Teorema </summary>
  
-</details>
-
-
--->
+ <br>
+ 
+ <details>
+ <summary> Dato je </summary>
+ 
+ ![image](https://user-images.githubusercontent.com/45834270/108108333-c9e8a280-7090-11eb-95ae-7e8865dcf72a.png)
+ 
+ </details> 
+ 
+  <details>
+ <summary> Garantuje se </summary>
+ 
+ ![image](https://user-images.githubusercontent.com/45834270/108108384-d967eb80-7090-11eb-9913-b6523cf51a4d.png)
+ 
+ </details> 
+ 
+  <details>
+ <summary> Vazi ekvivalencija </summary>
+ 
+ ![image](https://user-images.githubusercontent.com/45834270/108108420-e5ec4400-7090-11eb-9c12-591808aa2ec2.png)
+ 
+ </details> 
+ 
+ </details> 
 
 # Normalne forme i normalizacija
 
