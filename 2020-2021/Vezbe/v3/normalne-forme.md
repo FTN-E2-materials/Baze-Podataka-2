@@ -133,7 +133,7 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
   
   - Kolege krenu da proveravaju pravila za sva obelezja, dok kod 2nf se kaze da se pravilo odnosi samo na **NEPRIMARNA** obelezja sa desne strane funkcionalnih zavisnosti
   
-</details> <br>
+</details>
 
 <details>
   <summary> Anomalije azuriranja </summary> <br>
@@ -154,7 +154,7 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
     - ako izbrisem poslednji proizod za nekog dobavljaca, izgubicu i informaciju u kom je on gradu (anomalija brisanja)
 
   
-</details>
+</details> <br>
   
 # Treca normalna forma - 3NF
 
