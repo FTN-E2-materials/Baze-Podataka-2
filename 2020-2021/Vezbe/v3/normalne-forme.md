@@ -146,7 +146,6 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
 
   - anomalije azuriranja koje ovde primecujemo 
   - ono sto bi trebali da mozemo da upisemo a ova sema relacije nam to ne dozvoljava je:
-    - da unesemo informaciju o dobavljacu bez grada
     - da unesemo informaciju o dobavljacu i gradu a da ne unesemo proizvod (sto predstavlja anomaliju upisa)
   - anomalija modifikacije 
     - isti grad za istog dobavljaca ce se ponoviti onoliko koliko ima proizvoda (sto znaci da imamo problem sa modifikacijom, odnosno ako zelimo da promenimo informaciju o gradu, moracemo to uraditi na vise mesta, sto je anomalija modifikacije)
