@@ -134,6 +134,27 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
   - Kolege krenu da proveravaju pravila za sva obelezja, dok kod 2nf se kaze da se pravilo odnosi samo na **NEPRIMARNA** obelezja sa desne strane funkcionalnih zavisnosti
   
 </details> <br>
+
+<details>
+  <summary> Anomalije azuriranja </summary> <br>
+
+  - ako pogledamo primer ispod (dobavljac, proizvod i grad)
+
+![image](https://user-images.githubusercontent.com/45834270/108277044-0f809a80-7179-11eb-8c63-572fc353ef30.png)
+
+<br>
+
+  - anomalije azuriranja koje ovde primecujemo 
+  - ono sto bi trebali da mozemo da upisemo a ova sema relacije nam to ne dozvoljava je:
+    - da unesemo informaciju o dobavljacu bez grada
+    - da unesemo informaciju o dobavljacu i gradu a da ne unesemo proizvod (sto predstavlja anomaliju upisa)
+  - anomalija modifikacije 
+    - isti grad za istog dobavljaca ce se ponoviti onoliko koliko ima proizvoda (sto znaci da imamo problem sa modifikacijom, odnosno ako zelimo da promenimo informaciju o gradu, moracemo to uraditi na vise mesta, sto je anomalija modifikacije)
+  - anomalija brisanja
+    - ako izbrisem poslednji proizod za nekog dobavljaca, izgubicu i informaciju u kom je on gradu (anomalija brisanja)
+
+  
+</details>
   
 # Treca normalna forma - 3NF
 
