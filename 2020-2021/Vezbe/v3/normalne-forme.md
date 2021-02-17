@@ -29,7 +29,7 @@ Za sve ostale normalne forme (druga,treca,BK) obicno prvo ***gledamo sve funckio
 <details>
   <summary> Potpuna funkcionalna zavisnost </summary> <br>
   
-  Funckionalna zavisnost X->A je **POTPUNA** ako ne postoji podskup od X koji isto odredjuje A
+  Funckionalna zavisnost X->A je **POTPUNA** ako ne postoji podskup od X koji isto odredjuje A (odnosno ako se leva strana ne može dalje redukovati)
   
 </details> <br>
 
