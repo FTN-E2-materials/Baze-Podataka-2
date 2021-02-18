@@ -138,6 +138,11 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
 <details>
   <summary> Anomalije azuriranja </summary> <br>
 
+<br>
+
+<details>
+  <summary> Primer 1 </summary> <br>
+  
   - ako pogledamo primer ispod (dobavljac, proizvod i grad)
 
 ![image](https://user-images.githubusercontent.com/45834270/108277044-0f809a80-7179-11eb-8c63-572fc353ef30.png)
@@ -151,8 +156,27 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
     - isti grad za istog dobavljaca ce se ponoviti onoliko koliko ima proizvoda (sto znaci da imamo problem sa modifikacijom, odnosno ako zelimo da promenimo informaciju o gradu, moracemo to uraditi na vise mesta, sto je anomalija modifikacije)
   - anomalija brisanja
     - ako izbrisem poslednji proizod za nekog dobavljaca, izgubicu i informaciju u kom je on gradu (anomalija brisanja)
-
   
+</details> <br>
+
+<details>
+  <summary> Primer 2 </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/45834270/108427435-75365a80-723d-11eb-9153-da1556c224ef.png)
+
+<br>
+
+  - anomalije azuriranja koje ovde mogu da se pojave su anomalija upisa, modifikacije i brisanja
+  - anomalija upisa:
+    - ne mozemo da unesemo informaciju o novom studentu (BRI, PRZ, IME, BPI) a da izostavimo predmet (OZP), jer je kljuc slozen odnosno kombinacija studenta(BRI) i predmeta(OZP) i to predstavlja anomaliju upisa, takodje vazi da ne mozemo uneti informaciju o novom predmetu a da ne unesemo studenta 
+  - anomalija modifikacije(redudanse):
+    - oznaku predmeta i naziv predmeta cemo morati ponoviti onoliko puta koliko imamo studenata (BRI), sto znaci da u slucaju da zelimo da promenimo naziv predmeta, to moramo uciniti onoliko puta koliko ima studenata vezanih za taj predmet, sto predstavlja anomaliju modifikacije (redudanse)
+  - anomalija brisanja:
+    - ako zelimo da izbrisemo recimo studenta (RA10/2010, Peric, Pero, 3) a predmet (AN1, Analiza 1) je predmet kojem je jedini student preostao u tom trenutku bas Pero Peric,
+mi imamo anomaliju brisanja, jer brisanjem tog studenta mi gubimo informaciju i o predmetu  
+</details> <br>
+
+
 </details> <br>
   
 # Treca normalna forma - 3NF
