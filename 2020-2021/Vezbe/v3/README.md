@@ -16,6 +16,8 @@
 
 - ako imamo **fz izmedju neprimarnih** obelezja, sr sigurno **nije u 3NF**
   
+<br>
+
 </details>
 
 
