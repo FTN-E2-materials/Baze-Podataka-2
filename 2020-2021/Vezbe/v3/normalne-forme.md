@@ -138,6 +138,7 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
 <details>
   <summary> Anomalije azuriranja  </summary> <br>
   
+  - pre gledanja ovih primera neophodno je bar da poznajete [osnovne stvari](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) o anomalijama azuriranja ( ako niste do sad pogledali, na samom dnu [ovog dela](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) mozete se upoznati sa istim)
   - u ovom delu cemo posmatrati anomalije koje se pojavljuju usled krsenja druge normalne forme
 
 <br>
@@ -245,6 +246,7 @@ funkcionalno ne odredjuje ni jedan kljuc
 <details>
   <summary> Anomalije azuriranja </summary> <br>
   
+  - pre gledanja ovih primera neophodno je bar da poznajete [osnovne stvari](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) o anomalijama azuriranja ( ako niste do sad pogledali, na samom dnu [ovog dela](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) mozete se upoznati sa istim)
   - u ovom delu cemo posmatrati anomalije koje se pojavljuju usled krsenja trece normalne forme
 
 <br>
@@ -321,7 +323,10 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
 <details>
   <summary> Anomalije azuriranja </summary> <br>
-  
+
+  - pre gledanja ovih primera neophodno je bar da poznajete [osnovne stvari](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) o anomalijama azuriranja ( ako niste do sad pogledali, na samom dnu [ovog dela](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) mozete se upoznati sa istim)
+  - u ovom delu cemo posmatrati anomalije koje se pojavljuju usled krsenja bojs kodove normalne forme
+
 <details>
   <summary> Primer - obelezja "A", "B", "C" </summary> <br>
 
