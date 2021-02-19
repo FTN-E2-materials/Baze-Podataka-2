@@ -384,8 +384,33 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 <details> 
   <summary> Definicija 4NF </summary> <br>
   
+  - skup ogranicenja C je sacinjen od skupa funkionalnih zavisnosti(F) i od skupa viseznacnih zavisnosti(MV)
+  
 ![image](https://user-images.githubusercontent.com/49925421/101392627-4bb89480-38c6-11eb-820a-f8a977d988fa.png)
 
+
+</details>
+
+<details>
+  <summary> Anomalije azuriranja </summary> <br>
+  
+  - pre gledanja ovih primera neophodno je bar da poznajete [osnovne stvari](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) o anomalijama azuriranja ( ako niste do sad pogledali, na samom dnu [ovog dela](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-3) mozete se upoznati sa istim)
+  - u ovom delu cemo posmatrati anomalije koje se pojavljuju usled krsenja cetvrte normalne forme
+
+<details>
+  <summary> Primer </summary><br>
+
+![image](https://user-images.githubusercontent.com/45834270/108571251-08d85b80-7310-11eb-890c-07550426a334.png)
+
+  - anomalija upisa:
+    - ako zelimo da upisemo (OZP-OznakaPredmeta,OZD-OznakaDepartmana) imamo anomaliju upisa zato sto moramo upisati i OZN(oznaku nastavnika, jer je to obelezje deo kljuca)
+  - anomalija redudanse
+    - ako zelimo da izmenimo informaciju recimo o nastavniku, to moramo uraditi na vise mesta ([ilustrovano](https://user-images.githubusercontent.com/45834270/108572946-b862fd00-7313-11eb-87a3-78127cc1fa88.png) )
+  - anomalija brisanja
+    - ako u [ovom primeru](https://user-images.githubusercontent.com/45834270/108573050-ffe98900-7313-11eb-98cc-f89dbacc6177.png) recimo zelimo da izbrisemo nastavnika "Rale", izgubicemo informacije i o predmetu Analiza1
+    - sto predstavlja anomaliju brisanja
+
+</details><br>
 
 </details>
 
