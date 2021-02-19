@@ -442,7 +442,7 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 </details>
 
 <details>
-  <summary> Alternativna(ekvivalentna) formulacija uslova 3NF </summary> <br>
+  <summary> Alternativna(ekvivalentna) formulacija uslova 3NF + DOKAZ ekvivalencije </summary> <br>
   
 <details>
   <summary> Definicija </summary> <br>
