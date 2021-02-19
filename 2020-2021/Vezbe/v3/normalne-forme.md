@@ -416,6 +416,31 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
 <br>
 
+# Odnosni normalnih formi + DOKAZI
+
+<details>
+  <summary> Odnos uslova normalnih formi 1NF-BCNF  </summary> <br>
+  
+  - 1NF je **potreban** uslov za sve vise normalne forme, pri cemu je 1NF **ugradjen u definiciju** uslova svih ostalih normalnih formi
+
+<details> <summary> [dokaz] 3NF => 2NF  </summary><br> 
+  
+  - dokaz implikacije koja kaze da cim je zadovoljena treca normalna forma, to implicira da vazi i druga normalna forma
+  - ono sto ovde hocemo da dokazemo je da logicki [uslov 3nf](https://user-images.githubusercontent.com/45834270/108538575-3bb62b80-72df-11eb-9b44-b988119c1b37.png
+), tj. uslov **netranzitivnosti** bilo koje fz **neprimarnog** atributa od kljuca implicira i uslov da **nemamo** nikada i **nepotpunu**([uslov 2nf](https://user-images.githubusercontent.com/45834270/108538477-1e815d00-72df-11eb-9c50-5ba76647dac6.png)) funkcionalnu zavisnost **neprimarnog** atributa od kljuca  
+  - to mozemo postici **kontra pozicijom**, odnosno, dokazujemo da ce **narusenje 2NF implicirati i narusenje 3NF**
+  - na ovaj nacin olaksavamo proveru, odnosno umesto da pokazujemo **za svako** zadovoljene 3NF da implicira  2NF, lakse je dokazati **bilo koje** nezadovoljenje 2NF
+ 
+![image](https://user-images.githubusercontent.com/45834270/108545874-a324a900-72e8-11eb-9275-5880de5de09f.png)
+
+  - X->Y jer je X kljuc
+  - Y->A zbog nase predpostavke
+  - !(Y->X) jer je Y pravi podskup X
+ 
+</details>
+  
+</details> <br>
+
 # Sve normalne forme
 
 <details>
