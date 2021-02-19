@@ -6,11 +6,15 @@
 <details>
   <summary> Precice za proveru NF </summary>
   
-## Precice 
+## Precice koje garantuju da imamo neku nf sigurno
 
 - ako u sr **ne postoje funkcionalne zavisnosti**, ona je sigurno barem u **BCNF**
 - ako sr nema **neprimarnih** obelezja, ona je sigurno barem u **3NF**
 - cim svaki **kljuc** ima **jedno obelezje**, sr je sigurno barem u **2NF**
+
+## Precice koje garantuju da sigurno nismo u nekoj nf
+
+- ako imamo **fz izmedju neprimarnih** obelezja, sr sigurno **nije u 3NF**
   
 </details>
 
