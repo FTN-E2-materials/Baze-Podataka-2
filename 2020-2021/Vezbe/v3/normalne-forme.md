@@ -453,11 +453,29 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
 <details>
   <summary> Dokaz </summary> <br>
-  
-![image](https://user-images.githubusercontent.com/45834270/108551567-6c529100-72f0-11eb-8e69-7069e87bf9c0.png)
+
+## !(alternativna-3NF) => !(standardna-3NF)
+
+ - ako gledamo levu implikaciju
+ - prvo sto uradimo je negiranje [ove formule](https://user-images.githubusercontent.com/45834270/108563250-729d3900-7301-11eb-9e39-b12c264a75a0.png)(alternativni uslov 3NF), mi treba onda da dobijemo negaciju [ove formule](https://user-images.githubusercontent.com/45834270/108563208-5d280f00-7301-11eb-85a6-0112e20b28e2.png)(standardni uslov 3NF)(treba da dobijemo **tranzitivnost**)
+ - za svaki kljuc X, znamo da on sigurno odredjuje Y
+ - takodje znamo da Y->A
+ - a Y->X ne vazi, zato sto znamo da Y ne sadrzi ni jedan jedini kljuc sa svoje leve strane, onda Y sigurno ne moze da odredjuje bilo koji kljuc jer bi onda on sam bio kljuc (ili bi sadrzao kljuc sa svoje leve strane)
+ - stoga, imamo tranzitivnost, sto znaci da smo dokazali **!(alternativna-3NF) => !(standardna-3NF)**
  
+![image](https://user-images.githubusercontent.com/45834270/108562771-aa57b100-7300-11eb-95ef-ee3272b77967.png)
+
  <br>
- 
+
+## !(standardna-3NF) => !(alternativna-3NF)
+
+  - prvo radimo negaciju [ove formule](https://user-images.githubusercontent.com/45834270/108563208-5d280f00-7301-11eb-85a6-0112e20b28e2.png)(standardni uslov 3NF)(i dobijemo tranzitivnost)  i ocekujemo  da dobijemo negaciju [ove formule](https://user-images.githubusercontent.com/45834270/108563250-729d3900-7301-11eb-9e39-b12c264a75a0.png)(alternativni uslov 3NF)
+  - mi onda konstatujemo da [ovde](https://user-images.githubusercontent.com/45834270/108566524-dc6c1180-7306-11eb-82f5-90cdd06d1a3d.png) ne postoji kljuc koji bi bio podskup od Y, inace bi bi prakticno dosli u kontradikciju, jer ako bi postojao kljuc koji bi bio u Y onda bi moralo da  vazi  [ovo gore](https://user-images.githubusercontent.com/45834270/108566722-29e87e80-7307-11eb-8c95-86b754080e31.png), znaci iz cinnjenice da to ne vazi, onda sigurno nema ni jednog kljuca u levoj strani  od Y
+
+![image](https://user-images.githubusercontent.com/45834270/108562851-c8251600-7300-11eb-8a05-c3c29dc3324b.png)
+
+<br>
+
 </details><br>
 
 </details>
