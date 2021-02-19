@@ -423,6 +423,8 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
   
   - 1NF je **potreban** uslov za sve vise normalne forme, pri cemu je 1NF **ugradjen u definiciju** uslova svih ostalih normalnih formi
 
+</details>
+
 <details> <summary> [dokaz] 3NF => 2NF  </summary><br> 
   
   - dokaz implikacije koja kaze da cim je zadovoljena treca normalna forma, to implicira da vazi i druga normalna forma
@@ -436,10 +438,40 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
   - X->Y jer je X kljuc
   - Y->A zbog nase predpostavke
   - !(Y->X) jer je Y pravi podskup X
- 
-</details>
   
+</details>
+
+<details>
+  <summary> Alternativna(ekvivalentna) formulacija uslova 3NF </summary> <br>
+  
+<details>
+  <summary> Definicija </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/45834270/108551305-0cf48100-72f0-11eb-8cbf-496f29cd7ea6.png)
+  
+</details>
+
+<details>
+  <summary> Dokaz </summary> <br>
+  
+![image](https://user-images.githubusercontent.com/45834270/108551567-6c529100-72f0-11eb-8e69-7069e87bf9c0.png)
+ 
+ <br>
+ 
+</details><br>
+
+</details>
+
+<details>
+  <summary> [dokaz] BCNF=>3NF </summary> <br>
+  
+  - posto BCNF kaze da za **svako obelezje** i za svaku netrivijalnu fz, mora postojati kljuc sa leve strane
+  - a alternativna definicija 3NF isto to kaze samo za **svako neprimarno obelezje**, a cim za nadskup vazi (sva obelezje), to implicira da vazi i za podskup (neprimarna obelezja)
+  
+![image](https://user-images.githubusercontent.com/45834270/108552616-db7cb500-72f1-11eb-8ee7-1f8109bd6c29.png)  
+
 </details> <br>
+
 
 # Sve normalne forme
 
