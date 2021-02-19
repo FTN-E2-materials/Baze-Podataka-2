@@ -136,7 +136,9 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
 </details>
 
 <details>
-  <summary> Anomalije azuriranja </summary> <br>
+  <summary> Anomalije azuriranja  </summary> <br>
+  
+  - u ovom delu cemo posmatrati anomalije koje se pojavljuju usled krsenja druge normalne forme
 
 <br>
 
@@ -156,8 +158,10 @@ Iteriramo i proveravamo da li su sve funkcionalne zavisnosti **POTPUNE**, ako na
     - isti grad za istog dobavljaca ce se ponoviti onoliko koliko ima proizvoda (sto znaci da imamo problem sa modifikacijom, odnosno ako zelimo da promenimo informaciju o gradu, moracemo to uraditi na vise mesta, sto je anomalija modifikacije)
   - anomalija brisanja
     - ako izbrisem poslednji proizod za nekog dobavljaca, izgubicu i informaciju u kom je on gradu (anomalija brisanja)
+ 
+ <br>
   
-</details> <br>
+</details> 
 
 <details>
   <summary> Primer 2 </summary> <br>
@@ -236,7 +240,38 @@ funkcionalno ne odredjuje ni jedan kljuc
   - Ako imamo situaciju da nemamo neprimarna obelezja, samim tim nemamo tranzitivnost iz kljuca u neprimarno obelezje jer ga nema, te zakljucujemo da ako **nemamo neprimarno obelezje**, **zadovoljena** je 3nf
   - Ako imamo situaciju da **ne postoje funkcionalne zavisnosti**(trivijalne ne gledamo) onda je sigurno **zadovoljena** 3nf
 
-</details> <br>
+</details> 
+
+<details>
+  <summary> Anomalije azuriranja </summary> <br>
+  
+  - u ovom delu cemo posmatrati anomalije koje se pojavljuju usled krsenja trece normalne forme
+
+<br>
+
+<details>
+  <summary> Primer </summary> <br>
+
+![image](https://user-images.githubusercontent.com/45834270/108437446-a880e580-724d-11eb-83c7-5bde59f79a77.png)
+
+  - anomalije koje se usled krsenja trece normalne forme mogu primetiti su anomalije upisa, modifikacije  i brisanja
+  - anomalija upisa:
+    - ne mozemo uneti informacije o odseku(SOD-sifra odseka, NAO-naziv odseka) a da pre toga ne unesemo informacije o studentu (BRI, PRZ, IME)
+  - anomalija modifikacije(redudanse):
+    - ako zelimo recimo da promenimo naziv odseka, primecujemo da se taj odsek pojavljuje na onoliko mesta koliko ima studenata (BRI-a) vezanih za taj odsek,
+    - predstavimo to sa Y, sto znaci da jedna promena naziva odseka zahteva da to uradimo na Y mesta, sto predstavlja anomaliju redudanse
+  - anomalija brisanja
+    - ako izbrisemo studenta koji je recimo bio poslednji student vezan za neki odsek, mi gubimo i informaciju o tom odseku
+
+<br>
+
+</details>
+  
+  
+</details>
+
+
+<br>
 
 # Bojs Kodova normalna forma - BCNF
 
