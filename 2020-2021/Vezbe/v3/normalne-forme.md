@@ -318,6 +318,60 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
   
 </details>
 
+
+<details>
+  <summary> Anomalije azuriranja </summary> <br>
+  
+<details>
+  <summary> Primer - obelezja "A", "B", "C" </summary> <br>
+
+  - anomalije azuriranja koje se javljaju usled krsenja BCNF posmatramo na primeru ispod
+
+![image](https://user-images.githubusercontent.com/45834270/108510669-17e2ed80-72bf-11eb-85c5-3ae04c81a14b.png)
+
+  - anomalija upisa:
+    - ne mozemo da upisemo informaciju o obelezjima "A" i "B" a da ne unesemo informaciju o obelezju "C", sto predstavlja anomaliju upisa
+  - anomalija modifikacije(redudanse):
+    - ako zelimo da promenimo informaciju o obelezju "A" (ako to sistem uopste dozvoljava,posto je ono primarno obelejze),mi to moramo uraditi na vise mesta (kao sto se vidi na [slici](https://user-images.githubusercontent.com/45834270/108511969-e5d28b00-72c0-11eb-843b-4f7dd72da6e3.png) )
+    - sto predstavlja anomaliju redudanse
+  - anomalija brisanja:
+    - ako pogledamo [ovu](https://user-images.githubusercontent.com/45834270/108512431-832dbf00-72c1-11eb-8790-e31400b3dd3b.png) situaciju, odnosno, ako zelimo da obrisemo informaciju o obelezju "C" (odnosno  ako zelimo da izbrisemo podatak "X")
+    - a pri tome je podacima (1,0) obelezja "A" i "B" to poslednja veza sa bilo kojim obelezjem "C"
+    - to prouzrokuje da brisanjem podatka "X" obelezja "C" mi gubimo svaki trag i o konkretnim vrednostima (1,0) obelezja "A" i "B"
+    - sto predstavlja anomaliju brisanja
+
+<br>
+
+</details>
+
+
+<details>
+  <summary> Primer - Ilustrovaniji </summary> <br>
+  
+  
+![image](https://user-images.githubusercontent.com/45834270/108513492-f8e65a80-72c2-11eb-92e5-a72c1ba1af7c.png)
+
+  - ako vidimo primer iznad, imamo Dobavljaca, NazivDobavljaca i Proizvood
+  - K = {Dobavljac + Proizvod, NazivDobavljaca + Proizvod}
+  - anomalija upisa:
+    - ako predpostavimo da je stanje [ovakvo](https://user-images.githubusercontent.com/45834270/108515927-ec173600-72c5-11eb-93ae-8ef15697ee84.png)
+    - odnosno, pokusavamo da dodamo novog dobavljaca, ("AMD","Velja Nevolja")
+    - medjutim, to nije moguce ako ne unesemo podatak o "Proizvod"-u 
+    - sto znaci da mi ne mozemo uneti novog dobavljaca dokle god ne unesemo i proizvod vezan za njega
+    - sto predstavlja anomaliju upisa
+  - anomalija modifikacije
+    - ako predpostavimo da je stanje [ovakvo](https://user-images.githubusercontent.com/45834270/108514720-7c547b80-72c4-11eb-9f1c-bf68162bf6a8.png)
+    - a mi hocemo recimo "Velji Nevolji" obelezja "NazivDobavljaca" da promenimo ime u "Veljko Tehnika", mi to moramo uraditi na vise mesta (sto se da primetiti sa [slike](https://user-images.githubusercontent.com/45834270/108514720-7c547b80-72c4-11eb-9f1c-bf68162bf6a8.png) )
+    - a to je anomalija redudanse
+  - anomalija brisanja
+    - ako sad predpostavimo da je stanje [ovakvo](https://user-images.githubusercontent.com/45834270/108516525-9f802a80-72c6-11eb-8341-9cddc917b190.png)
+    - a zelimo da obrisemo recimo proizvod "RX 5500", to znaci da brisanjem tog podatka o proizvodu, mi gubimo i informaciju o dobavljacu (posto mu je to poslednja veza sa bilo kojim proizvodom)
+    - sto predstavlja anomaliju brisanja
+  
+</details>
+  
+</details>
+
 <br>
 
 # Cetvrta normalna forma - 4NF
