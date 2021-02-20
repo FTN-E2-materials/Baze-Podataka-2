@@ -521,7 +521,46 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
   
 ![image](https://user-images.githubusercontent.com/45834270/108552616-db7cb500-72f1-11eb-8ee7-1f8109bd6c29.png)  
 
-</details> <br>
+</details>
+
+<details>
+  <summary> [dokaz] 4NF => BCNF </summary><br>
+  
+  - mi imamo pravilo da **svaka fz implicira vz** (iz X->Y implicira X->->Y)
+  - ako se time vodimo(zbog toga kazemo da je iz Y->a => Y->->A) i odradimo samo negaciju BCNF, treba da dobijemo negiranu 4NF
+  - ono sto trenutno dobijemo je skoro naruseni uslov 4NF, ono sto nam fali jos je da umesto **podskupa** imamo **pravi podskup** (negirana 4NF to zahteva)
+
+![image](https://user-images.githubusercontent.com/45834270/108609578-186aa980-73cf-11eb-92af-35c846bece62.png)
+
+<br>
+
+  - stoga, logickim principom iskljucenja treceg imamo 2 slucaja
+ 
+![image](https://user-images.githubusercontent.com/45834270/108609805-cb87d280-73d0-11eb-879d-1bd24e7c1ed9.png)
+ 
+ <br>
+ 
+  - pod a, dobijamo odmah direktno negiranu 4NF
+
+![image](https://user-images.githubusercontent.com/45834270/108609838-038f1580-73d1-11eb-85d6-4d6096bd589c.png)
+
+<br>
+
+  - pod b, imamo kontradikciju
+
+![image](https://user-images.githubusercontent.com/45834270/108610767-89628f00-73d8-11eb-81d5-6eadadcff6f8.png)
+
+<br>
+
+  - konacno smo dokazali ono sto smo inicijalno i zeleli (negirana BCNF implicira negiranu 4NF)
+
+![image](https://user-images.githubusercontent.com/45834270/108610775-a13a1300-73d8-11eb-82a5-50530d093a17.png)
+
+<br>
+ 
+</details>
+
+<br>
 
 
 # Sve normalne forme
