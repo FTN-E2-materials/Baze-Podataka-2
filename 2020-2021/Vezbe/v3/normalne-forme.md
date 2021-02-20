@@ -404,11 +404,19 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
   - anomalija upisa:
     - ako zelimo da upisemo (OZP-OznakaPredmeta,OZD-OznakaDepartmana) imamo anomaliju upisa zato sto moramo upisati i OZN(oznaku nastavnika, jer je to obelezje deo kljuca)
+    - takodje, ono sto je **SPECIFICNO** kod upisa torke u relaciju koja ima **viseznacne fz** je da ne mozemo samo upisati novu torku, nego moramo proveriti da li je potrebno upisati i neku drugu torku
+    - odnosno, ako zelimo da upisemo torku (Predmet,Nastavnik,Departman) zajedno, moze se dogoditi da upis torke izaziva i upis nepotrebnih torki
+    - da bi znali koje sve torke jos trebamo dodati u tom slucaju, ono sto je potrebno jeste da znamo sta znaci **zadovoljenje viseznacne zavisnosti**
+    - da bi obezbedili to zadovoljenje u jednoj relaciji, trebamo napraviti projekcije i spojiti ih a potom videti da li imamo nove torke u tom spoju
+    - ako da, onda treba da **DODAMO I TE NOVE TORKE** da bi se odrzalo zadovoljenje viseznacne zavisnosti, sto predstavlja anomaliju upisa
+    - ***napomena***: posto u primeru imamo vz OZP->->OZD, zadovoljene vz moramo proveriti za nju (a tako  bi trebali i za svaku vz koju imamo u skupu ogranicenja C)([podsetnik](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-2) kako to najbrze proveriti se nalazi na linkovanom direktorijumu na dnu istog)
+    - u nasem slucaju bismo uradili projekciju nad OZP+OZD i projekciju nad OZP+OZN, potom bismo uradili prirodni spoj tih projekcija, a torke koje se ne nalaze u nasoj relaciji a dobijene su ovim spojom, su one torke koje fale da bi vazilo zadovoljenje vz
   - anomalija redudanse
     - ako zelimo da izmenimo informaciju recimo o nastavniku, to moramo uraditi na vise mesta ([ilustrovano](https://user-images.githubusercontent.com/45834270/108572946-b862fd00-7313-11eb-87a3-78127cc1fa88.png) )
   - anomalija brisanja
     - ako u [ovom primeru](https://user-images.githubusercontent.com/45834270/108573050-ffe98900-7313-11eb-98cc-f89dbacc6177.png) recimo zelimo da izbrisemo nastavnika "Rale", izgubicemo informacije i o predmetu Analiza1
     - sto predstavlja anomaliju brisanja
+    - takodje, ono sto je **SPECIFICNO** kod brisanja torke u relaciju koja ima **viseznacne fz** je da ne mozemo tek tako obrisati neku torku iz relacije, mora i dalje ostati zadovoljenje vz, odnosno, isti proces kao i kod upisa nove, samo sto u ovom slucaju kada uradimo projekcije i prirodni spoj, saznajemo da li neke torke takodje treba da izbrisemo
 
 </details><br>
 
