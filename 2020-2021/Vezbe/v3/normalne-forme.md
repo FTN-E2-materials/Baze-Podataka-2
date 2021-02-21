@@ -457,6 +457,26 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
 </details>
 
+<details>
+  <summary> Primer </summary><br>
+  
+  - imamo trokomponentu zavisnost spoja (pri cemu su obelezja: OznakaPredmeta, OznakaNastavnika, OznakaDepartmana)
+  - u ovom primeru, nastavnike dodeljujem predmetu nezavisno od departmana i obrnuto(predmetu dodeljujem nastavnike nezavisno od departmana)
+  - nastavnike dodeljujem departmanu nezavisno od predmeta
+  - predmete dodeljujem departmanu nezavisno od nastavnika   
+  - ova zavisnost spoja je takva da nije posledica ni jedne fz (jer ih nema uopste)
+  - ono sto takodje vidimo je da ni jedna od ovih komponenata nema da sa jos nekom u preseku sa njom ima kljuc
+  - znaci ako uzmemo recimo OZP+OZN komponentu i OZN+OZD komponentu, njihov presek je OZN, ali OZN ne sadrzi kljuc (OZP+OZN+OZD)
+  - OZP+OZN i OZP+OZD u preseku ima OZP ali taj presek ne sadrzi kljuc
+  - OZN+OZD i OZP+OZD u preseku ima OZD ali taj presek ne sadrzi kljuc
+  - te stoga imamo narusen uslov 5NF
+
+![image](https://user-images.githubusercontent.com/45834270/108613416-182fd580-73f2-11eb-8ecc-2e83f0bc6401.png)
+  
+  - ono sto se lepo vidi ovde je mogucnost dekomponovanja na tri sr (svaka komponenta dobija svoju sr)
+  
+</details>
+
 <br>
 
 # Sesta normalna forma - 6NF (Normalna forma domena i kljuceva - DKNF)
@@ -628,6 +648,28 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
   
 </details>
 
+  
+</details>
+
+<details>
+  <summary> [dokaz] 5NF=>4NF </summary><br>
+  
+  - narusavanje 4NF narusava i 5NF zato sto je vz ekvivalentna zavisnosti spoja
+  - i cim smo narusili 4NF, tj. da X ne sadrzi kljuc sa svoje leve strane a znamo da je on u preseku onda nece sigurno biti zadovoljen ni uslov 5NF
+  
+![image](https://user-images.githubusercontent.com/45834270/108613743-ebc98880-73f4-11eb-8d02-543c87cec095.png)
+  
+</details>
+
+<details>
+  <summary> Alternativna(ekvivalentna) formulacija uslova 5NF </summary><br>
+  
+  - voditi racuna da mora biti zadovoljena **BCNF** !
+  - ovo znaci da ako 'doteramo' nasu sr do BCNF i ako mozemo da eliminisemo sve vz i sve zavisnosti spoja kao posledice fz, onda sigurno jesmo u 5NF
+  
+![image](https://user-images.githubusercontent.com/45834270/108613843-e7519f80-73f5-11eb-9225-c7b089dc69c8.png)
+  
+  - posledica je da ako nasa sr zadovolji 5NF, onda svaka ta komponenta zavisnosti spoja je takva da sadrzi **bar jedan kljuc**
   
 </details>
 
