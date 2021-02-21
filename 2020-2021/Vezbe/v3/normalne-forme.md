@@ -426,8 +426,31 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 
 # Peta normalna forma - 5NF (Normalna forma projekcije i spoja - PJNF)
 
+<details>
+  <summary> Uvod </summary><br>
+
+  - znamo da je vz **specijalan** slucaj **zavisnosti spoja** sa samo dve komponente
+  - JD je skup zavisnosti spoja
+  - ovo(C=F u JD) je samo poopstenje prethodne situacije jer su vz specijalan slucaj **zavisnosti spoja (zs)**
+  - dakle, u ovoj formulaciji mi obuhvatamo i sve vz
+
+![image](https://user-images.githubusercontent.com/45834270/108612452-2fb69080-73e9-11eb-8f9d-fd85cb7483af.png)
+
+
+</details>
+
 <details> 
   <summary> Definicija 5NF/PJNF </summary> <br>
+  
+  - netrivijalna zavisnost spoja je netrivijalna onda kada je unija svih onih komponenti Xi jednaka R-u
+  - a ni jedna od njih posebno nije jednaka bas celom R-u
+  - dakle mora biti posledica zavisnosti kljuca iz K 
+    - prakticno svaka ta komponenta ce morati biti u vezi sa kljucem
+    - i to tako sto uzmemo bilo koju zavisnost spoja i ako uzmemo bilo koju komponentu X (naravno koja je razlicita od R-a, idemo na netrivijalnu)
+    - iako je ta zavisnost spoja posledica od naseg C
+    - onda za svaku tu komponentu mora postojati neka druga komponenta u zavisnosti spoja
+    - pri cemu treba da su one razlicite i da je u preseku kljuc (barem  jedan kljuc)
+    - dakle kad uzmemo X1 mora postajati bar jos neki Xi da je u njihovom preseku sadrzan bar jedan kljuc 
   
 ![image](https://user-images.githubusercontent.com/49925421/101393124-de593380-38c6-11eb-9feb-6a75f51c589c.png)
 
