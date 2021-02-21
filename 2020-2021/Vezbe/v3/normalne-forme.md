@@ -484,9 +484,24 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 <details> 
   <summary> Definicija 6NF/DKNF </summary> <br>
   
+  - u skupu ogranicenja domena D mi imamo pobrojane sve domene svih obelezja koja su sadrzana u nasoj semi relacije N
+  - a **ogranicenjem torke** smo uvodili sva ogranicenja domena
+    - svako obelezje iz seme relacije mora za sebe imati uvezano **ogranicenje vrednosti obelezja** (**ogranicenje torke**)
+    - a ogranicenje vrednosti obelezja je govorilo da svakom obelezju moramo *pridruziti domen* i moramo specifirati da li za to obelezje u toj semi relaciji *dozvoljeno ili zabranjeno* zadavanje *nula* vrednosti
+  - tim ogranicenjem smo uvodili i *skup domena* koji je nama neophodan da bi pridruzili svakom obelezju(iz skupa R) jedan domen i onda sada prakticno govorimo o tom skupu kao o skupu **D**
+  
 ![image](https://user-images.githubusercontent.com/49925421/101393227-08aaf100-38c7-11eb-8a7e-fca0f8da40e7.png)
 
+</details>
 
+<details> 
+  <summary> Primer </summary> <br>
+  
+  - obelezja: StudentID, Prezime,  Ime, SrednjaOcena(avg-prosek), Klasa (opis uspeha studenta)
+  - SID->R nam kaze da je SID kljuc
+  - a imamo i organicenje torke (takvo da je svakom obelezju dodeljeno ogranicenje vrednosti obelezja)
+  
+![image](https://user-images.githubusercontent.com/45834270/108639683-16b7e900-7496-11eb-9922-f8c6bcd1b113.png)
 
 </details>
 
