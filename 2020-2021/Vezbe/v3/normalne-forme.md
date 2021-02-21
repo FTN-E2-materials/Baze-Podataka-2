@@ -560,6 +560,54 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
  
 </details>
 
+<details>
+  <summary> Alternativna(ekvivalentna) formulacija uslova 4NF </summary> <br>
+  
+<details>
+  <summary> Definicija </summary> <br>
+  
+  - voditi racuna da mora biti zadovoljena **BCNF** !!
+  
+![image](https://user-images.githubusercontent.com/45834270/108610878-8b791d80-73d9-11eb-8919-cf339432aa56.png)
+  
+</details>
+
+<details>
+  <summary> [dokaz] U desno </summary> <br>
+  
+  - uzmemo bilo koju vz, takva da je ona posledica od F
+  - onda znamo da je F u MV ekvivalentno sa F
+  - sto znaci da se nasa sema relacije svodi na sr N(R,F)
+  - a cim zadovolja BCNF, onda sigurno zadovoljava i 4NF
+
+![image](https://user-images.githubusercontent.com/45834270/108611146-ead82d00-73db-11eb-91a1-5360a6f1a15f.png)
+
+
+</details>
+
+<details>
+  <summary> [dokaz] U levo </summary> <br>
+  
+  - ako smo narusili BCNF, narusili smo i 4NF (ranije dokazano)
+  - sto znaci da ne mozemo da predpostavimo da vazi 4NF i da je [ovde](https://user-images.githubusercontent.com/45834270/108611501-61c2f500-73df-11eb-99ea-ac56f819b6da.png) narusena, znaci BCNF mora da vazi
+ 
+ 
+  - onda ostaje ovaj [drugi uslov](https://user-images.githubusercontent.com/45834270/108611517-9040d000-73df-11eb-96a0-4233ce1c6d1f.png)
+  - tj. uzmemo vz koja nije posledica skupa fz
+  - posto vazi 4NF i posto imamo takvu vz onda mora biti da postoji neki kljuc koji je podskup od ove leve strane Y
+  - a ako postoji takav kljuc ,onda vazi X u Z (posto je X kljuc)
+  - a ako vazi X u Z, posto je Y nadskup od X, onda vazi Y->Z
+  - a to implicira da vazi Y->->Z
+  - a poceli smo od predpostavke da Y->->Z ne vazi kao posledica skupa fz F
+  - sto nas dovodi do kontradikcije
+  
+![image](https://user-images.githubusercontent.com/45834270/108611287-8d44e000-73dd-11eb-9708-3134ac1a8393.png)
+  
+</details>
+
+  
+</details>
+
 <br>
 
 
