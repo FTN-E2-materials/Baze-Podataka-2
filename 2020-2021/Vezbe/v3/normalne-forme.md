@@ -503,6 +503,9 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
   
 ![image](https://user-images.githubusercontent.com/45834270/108639683-16b7e900-7496-11eb-9922-f8c6bcd1b113.png)
 
+  - DKNF je narusen, kada pogledamo logicki  uslov, on povezuje vrednosti obelezja AVG i KLS
+    - ali mi ne mozemo reci da je ovaj logicki uslov *posledica* niti **ogranicenja kljuca** niti ogranicenja vrednosti pojedinacnih obelezja tj. **domena**
+
 </details>
 
 <br>
