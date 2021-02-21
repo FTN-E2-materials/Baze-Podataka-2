@@ -590,6 +590,9 @@ U zavisnosti od 3nf, BCNF je strozija bas zbog toga sto je rec o **bilo kom atri
 <br>
 
   - pod b, imamo kontradikciju
+  - ako je **X kljuc i X=R**, a vazi fz R/{A} -> A, onda X nije minimalno jer A moze da se izbaci (iz X-a)
+  - znaci X ne moze biti citavo R jer ako je citavo R, onda nije kljuc(jer A moze da se izbaci)
+  - sto je kontradikcija sa pocetnom pretpostavkom
 
 ![image](https://user-images.githubusercontent.com/45834270/108610767-89628f00-73d8-11eb-81d5-6eadadcff6f8.png)
 
