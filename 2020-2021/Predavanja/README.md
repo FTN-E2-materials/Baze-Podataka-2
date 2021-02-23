@@ -11,3 +11,5 @@
 ###### Metoda sinteze: [predavanje 8](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-8)
 
 ###### Prevodjenje ER-a u relacioni  model: [predavanje 9](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-9),[predavanje 10](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-10)
+
+###### Metodologije projektovanja: [predavanje 11](https://github.com/FTN-E2-materials/BazePodataka2/tree/main/2020-2021/Predavanja/predavanje-11)
