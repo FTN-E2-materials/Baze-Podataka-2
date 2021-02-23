@@ -6,6 +6,7 @@
 ### Cesta pitanja
 
   - normalnih formi koje nisu radjene na vezbama
+    - kada ide pitanje iz ovoga, treba navesti i primer relacije koja narusava tu nf a sve prethodne zadovoljava 
   - viseznacnih zavisnosti
   - zavisnosti spoja
   - prevodjenje kod ISE (recimo preko jedne tabele)
