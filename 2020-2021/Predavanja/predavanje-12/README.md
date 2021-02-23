@@ -66,13 +66,56 @@ prolaza
 <details>
   <summary> Integracija eksternih sema </summary><br>
   
-  - a
+<details>
+  <summary> Uvod </summary><br>
+
+![image](https://user-images.githubusercontent.com/45834270/108849066-09a81080-75e2-11eb-80aa-f29cf711b793.png)
+
+<br></details>
+
+
+<details>
+  <summary> Tipovi kolizija </summary><br>
+  
+![image](https://user-images.githubusercontent.com/45834270/108849670-baaeab00-75e2-11eb-8cfe-769755977848.png)
+
+![image](https://user-images.githubusercontent.com/45834270/108849695-c26e4f80-75e2-11eb-949e-49878bed464a.png)
+
+<br></details>
+
 
 <br></details>
 
 <details>
   <summary> Konceptualno projektovanje softvera </summary><br>
   
-  - a
+<details>
+  <summary> Aktivnosti </summary><br>
+  
+![image](https://user-images.githubusercontent.com/45834270/108857285-3a407800-75eb-11eb-9d92-f0c1334f9258.png)
+
+<br></details>
+
+<details>
+  <summary> Transakcija </summary><br>
+  
+![image](https://user-images.githubusercontent.com/45834270/108857388-5512ec80-75eb-11eb-91bd-6fb9131c86b5.png)
+
+![image](https://user-images.githubusercontent.com/45834270/108857415-5ba16400-75eb-11eb-8956-8ec7af06f071.png)
+
+![image](https://user-images.githubusercontent.com/45834270/108857454-652acc00-75eb-11eb-8c5c-d0641bfcf935.png)
+
+![image](https://user-images.githubusercontent.com/45834270/108857501-7247bb00-75eb-11eb-9ebf-f820c893a2a9.png)
+
+<br></details>
+
+<details>
+  <summary> Aplikacija </summary><br>
+  
+![image](https://user-images.githubusercontent.com/45834270/108857619-90adb680-75eb-11eb-9d8d-3d52b773f6ae.png)
+
+![image](https://user-images.githubusercontent.com/45834270/108857654-97d4c480-75eb-11eb-9f8e-11e9a59d941e.png)
+
+<br></details>
 
 <br></details>
