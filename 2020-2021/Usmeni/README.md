@@ -5,13 +5,15 @@
 
 ### Cesta pitanja
 
-  - normalnih formi koje nisu radjene na vezbama
+  - normalne forme koje nisu radjene na vezbama
     - kada ide pitanje iz ovoga, treba navesti i primer relacije koja narusava tu nf a sve prethodne zadovoljava 
   - viseznacnih zavisnosti
   - zavisnosti spoja
-  - prevodjenje kod ISE (recimo preko jedne tabele)
-  - prevodjenje kategorizacije
-  - n-arnih poveznika nekad
+  - prevodjenje
+    - ISE (recimo preko jedne tabele)
+    - kategorizacije
+    - n-arnih poveznika nekad
+    - kad su gornji kardinaliteti 1:1
 
 ### Preko 60 poena
 
