@@ -23,10 +23,10 @@ Ako imas preko 60 poena, pita ono sa kraja (poslednje dve prezentacije, predavan
 
   - Takodje idu pitanja iz sinteze:
     - obavezno formiranje kanonickog pokrivaca 
-    - kako se obezbedjuje ekvivalentnost sa polaznim skupom FZ
     - a nekada i cela sinteza od formiranja kanonickog pokrivaca pa do kraja
   - A i dekompozicije:
     -  sve 
+    -  kako se obezbedjuje ekvivalentnost sa polaznim skupom FZ
     -  kako biramo FZ po kojoj cemo dekomponovati (kriterijumi sa prezentacije, ne oni sa vezbi, jer se malo razlikiju) 
   
 ### Dokazi
