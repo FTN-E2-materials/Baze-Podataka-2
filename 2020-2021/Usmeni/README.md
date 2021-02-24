@@ -17,7 +17,7 @@
 
 Ako imas preko 60 poena, pita ono sa kraja (poslednje dve prezentacije, predavanja), pogotovo **konceptualno projektovanje**.
   - tipa, konceptualno projektovanje transakcionih programa i aplikacija IS
-  - koje osobine ima MP prilikom konceptualnog projektovanja
+  - koje osobine treba da ima MP prilikom konceptualnog projektovanja
     
 ### Sinteza & dekompozicija
 
