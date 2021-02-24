@@ -7,7 +7,7 @@
 
   - normalne forme koje nisu radjene na vezbama
     - kada ide pitanje iz ovoga, treba navesti i primer relacije koja narusava tu nf a sve prethodne zadovoljava 
-  - viseznacnih zavisnosti
+  - viseznacne zavisnosti
   - zavisnosti spoja
   - prevodjenje
     - ISE (recimo preko jedne tabele)
